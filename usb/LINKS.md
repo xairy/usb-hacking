@@ -512,3 +512,5 @@ https://github.com/JohnDMcMaster/usbrply
 https://training.ti.com/sites/default/files/docs/USB-M6-USB-in-Device-Mode.pdf
 
 https://github.com/google/ukip
+
+https://www.usbcondom.org/
