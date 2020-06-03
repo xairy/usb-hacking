@@ -31,6 +31,8 @@ Last iteration of the talk:
 
 [2020: "DIRECT MEMORY ACCESS ATTACKS: A WALK DOWN MEMORY LANE"](https://eclypsium.com/wp-content/uploads/2020/01/DMA-Attacks-A-Walk-Down-Memory-Lane.pdf) [article]
 
+[2020: "Introductory Study of IOMMU (VT-d) and Kernel DMA Protection on Intel Processors" by Satoshi Tanda](https://standa-note.blogspot.com/2020/05/introductory-study-of-iommu-vt-d-and.html) [article]
+
 [2019: "IOMMU and DMA attacks" by Jean-Christophe Delaunay](https://www.synacktiv.com/ressources/IOMMU_and_DMA_attacks_presentation_16_9.pdf) [slides]
 
 [2019: "PicoDMA - DMA Attacks at your fingertips" by Ben Blaxill and Joel Sandin](https://i.blackhat.com/USA-19/Wednesday/us-19-Sandin-PicoDMA-DMA-Attacks-At-Your-Fingertips.pdf) [slides]
