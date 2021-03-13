@@ -514,3 +514,25 @@ https://training.ti.com/sites/default/files/docs/USB-M6-USB-in-Device-Mode.pdf
 https://github.com/google/ukip
 
 https://www.usbcondom.org/
+
+https://github.com/RoganDawes/LOGITacker/blob/USB_host_enum/fingerprint_os.md
+
+https://gist.github.com/abarisani/4595a7c535435038e0571237893c81c4
+
+https://www.collabora.com/news-and-blog/blog/2019/02/18/modern-usb-gadget-on-linux-and-how-to-integrate-it-with-systemd-part-1/
+
+https://www.collabora.com/news-and-blog/blog/2019/03/27/modern-usb-gadget-on-linux-and-how-to-integrate-it-with-systemd-part-2/
+
+https://www.collabora.com/news-and-blog/blog/2019/06/24/using-dummy-hcd/
+
+https://blog.benjojo.co.uk/post/userspace-usb-drivers
+
+https://www.youtube.com/c/Seytonic/videos
+
+https://github.com/glitchcore/usbproxy/releases/tag/1
+
+https://github.com/glitchcore/usbproxy
+
+https://lab.ktemkin.com/post/why-is-usb3-harder/
+
+https://github.com/0x123456789/UDEFuzz
