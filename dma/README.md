@@ -9,6 +9,8 @@ Last iteration of the talk:
 
 ## Overview
 
+[2020: "DMA explained"](https://astralvx.com/dma-explained/) [article]
+
 [2017: "Practical introduction to PCI Express with FPGAs" by Michal Husejko and John Evans](https://indico.cern.ch/event/121654/attachments/68430/98164/Practical_introduction_to_PCI_Express_with_FPGAs_-_Extended.pdf) [slides]
 
 [2017: "Introduction to PCI Express" by Paolo Durante](https://indico.cern.ch/event/643308/contributions/2610541/attachments/1467727/2537467/Introduction_to_PCI_Express.pdf) [slides]
@@ -27,7 +29,9 @@ Last iteration of the talk:
 
 [Dmytro Oleksiuk](https://twitter.com/d_olex) [twitter]
 
-[2020: "IOMMU and DMA attacks" by Jean-Christophe Delaunay](https://www.synacktiv.com/ressources/IOMMU_and_DMA_attacks_presentation.pdf) [slides] [[video](https://www.twitch.tv/videos/633192353?t=3h13m17s)]
+[2020: "Things not to do when using an IOMMU by Ilja van Sprundel and Joseph Tartaro"](https://www.youtube.com/watch?v=p1HUpSkHcZ0) [video]
+
+[2020: "IOMMU and DMA attacks" by Jean-Christophe Delaunay](https://www.synacktiv.com/ressources/IOMMU_and_DMA_attacks_presentation.pdf) [slides] [[video](https://www.youtube.com/watch?v=u94ioghxKoc)]
 
 [2020: "IOMMU-resistant DMA attacks" by Gil Kupfer](http://www.cs.technion.ac.il/users/wwwb/cgi-bin/tr-get.cgi/2018/MSC/MSC-2018-21.pdf) [thesis]
 
@@ -80,6 +84,10 @@ Last iteration of the talk:
 2013: "Funderbolt: Adventures in Thunderbolt DMA Attacks" by Russ Sevinsky [[slides](https://media.blackhat.com/us-13/US-13-Sevinsky-Funderbolt-Adventures-in-Thunderbolt-DMA-Attacks-Slides.pdf)] [[video](https://www.youtube.com/watch?v=V9TKP_ZIur8)]
 
 [2010: "Memory Forensics over the IEEE 1394 Interface" by Freddie Witherden](https://freddie.witherden.org/pages/ieee-1394-forensics.pdf) [paper]
+
+## Other
+
+[2020: "IOMMU Support in Linux"](https://www.cerno.tech/posts/2020/08/iommu-support-in-linux/) [article]
 
 ## Tools
 
