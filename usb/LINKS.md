@@ -536,3 +536,19 @@ https://github.com/glitchcore/usbproxy
 https://lab.ktemkin.com/post/why-is-usb3-harder/
 
 https://github.com/0x123456789/UDEFuzz
+
+https://www.youtube.com/watch?v=N0O5Uwc3C0o
+
+https://www.youtube.com/watch?v=wdgULBpRoXk
+
+https://8051enthusiast.github.io/2020/04/14/001-USB_Firmware.html
+
+https://8051enthusiast.github.io/2020/04/14/002-Sensor_Firmware.html
+
+https://8051enthusiast.github.io/2020/04/14/003-Stream_Video_From_Mouse.html
+
+https://www.crowdsupply.com/great-scott-gadgets/luna
+
+https://sa.lj.am/usbccccc/
+
+https://people.kernel.org/bleung/now-how-many-usb-c-to-usb-c-cables-are-there-usb4-update-september-12
