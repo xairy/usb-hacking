@@ -29,6 +29,8 @@ Last iteration of the talk:
 
 [Dmytro Oleksiuk](https://twitter.com/d_olex) [twitter]
 
+[2021: "PCIe Device Attacks: Beyond DMA"](https://i.blackhat.com/USA21/Wednesday-Handouts/us-21-PCIe-Device-Attacks-Beyond-DMA-Exploiting-PCIe-Switches-Messages-And-Errors.pdf) [slides]
+
 [2020: "Things not to do when using an IOMMU by Ilja van Sprundel and Joseph Tartaro"](https://www.youtube.com/watch?v=p1HUpSkHcZ0) [video]
 
 [2020: "IOMMU and DMA attacks" by Jean-Christophe Delaunay](https://www.synacktiv.com/ressources/IOMMU_and_DMA_attacks_presentation.pdf) [slides] [[video](https://www.youtube.com/watch?v=u94ioghxKoc)]
@@ -86,6 +88,8 @@ Last iteration of the talk:
 [2010: "Memory Forensics over the IEEE 1394 Interface" by Freddie Witherden](https://freddie.witherden.org/pages/ieee-1394-forensics.pdf) [paper]
 
 ## Other
+
+[2021: "Fuzzing Linux with Xen" by Tamas K Lengyel](https://media.defcon.org/DEF%20CON%2029/DEF%20CON%2029%20presentations/Tamas%20K%20Lengyel%20-%20Fuzzing%20Linux%20with%20Xen.pdf) [slides] [[video](https://www.youtube.com/watch?v=_dXC_I2ybr4)
 
 [2020: "IOMMU Support in Linux"](https://www.cerno.tech/posts/2020/08/iommu-support-in-linux/) [article]
 
