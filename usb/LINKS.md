@@ -552,3 +552,15 @@ https://www.crowdsupply.com/great-scott-gadgets/luna
 https://sa.lj.am/usbccccc/
 
 https://people.kernel.org/bleung/now-how-many-usb-c-to-usb-c-cables-are-there-usb4-update-september-12
+
+https://www.driverentry.com/node/104
+
+https://staff.aist.go.jp/k.suzaki/DeviceVeil-DSN19-Slide.pdf
+
+https://staff.aist.go.jp/k.suzaki/DeviceVeil-DSN19.pdf
+
+https://www.usenix.org/system/files/hotstorage20_paper_zhong_0.pdf
+
+https://www.youtube.com/watch?v=is9wVOKeIjQ&t=53s
+
+https://github.com/AristoChen/usb-proxy
