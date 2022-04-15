@@ -29,6 +29,8 @@ Last iteration of the talk:
 
 [Dmytro Oleksiuk](https://twitter.com/d_olex) [twitter]
 
+[2021: "Modifying the Acorn CLE-215+ FPGA into a PCILeech DMA attack device"](https://blog.frizk.net/2021/10/acorn.html) [article]
+
 [2021: "PCIe Device Attacks: Beyond DMA"](https://i.blackhat.com/USA21/Wednesday-Handouts/us-21-PCIe-Device-Attacks-Beyond-DMA-Exploiting-PCIe-Switches-Messages-And-Errors.pdf) [slides]
 
 [2020: "Things not to do when using an IOMMU by Ilja van Sprundel and Joseph Tartaro"](https://www.youtube.com/watch?v=p1HUpSkHcZ0) [video]
