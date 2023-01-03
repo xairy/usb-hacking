@@ -93,6 +93,8 @@ Last iteration of the talk:
 
 [2021: "Fuzzing Linux with Xen" by Tamas K Lengyel](https://media.defcon.org/DEF%20CON%2029/DEF%20CON%2029%20presentations/Tamas%20K%20Lengyel%20-%20Fuzzing%20Linux%20with%20Xen.pdf) [slides] [[video](https://www.youtube.com/watch?v=_dXC_I2ybr4)
 
+[2021: "An Introduction to IOMMU Infrastructure in the Linux Kernel"](https://lenovopress.lenovo.com/lp1467.pdf) [article]
+
 [2020: "IOMMU Support in Linux"](https://www.cerno.tech/posts/2020/08/iommu-support-in-linux/) [article]
 
 ## Tools
