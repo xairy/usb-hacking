@@ -564,3 +564,17 @@ https://www.usenix.org/system/files/hotstorage20_paper_zhong_0.pdf
 https://www.youtube.com/watch?v=is9wVOKeIjQ&t=53s
 
 https://github.com/AristoChen/usb-proxy
+
+https://github.com/cea-sec/usbsas
+
+https://garyodernichts.blogspot.com/2022/06/exploiting-wii-us-usb-descriptor-parsing.html
+
+https://telegra.ph/Nelegalnyj-USB-09-02
+
+https://www.kickstarter.com/projects/electr/c2c-caberqu-usb-c-cable-tester
+
+https://fredericb.info/2022/06/breaking-secure-boot-on-google-nest-hub-2nd-gen-to-run-ubuntu.html
+
+https://arxiv.org/pdf/2211.01109.pdf
+
+https://github.com/0xADE1A1DE/USB-Injection
