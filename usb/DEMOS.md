@@ -233,7 +233,7 @@ Note: LED pin is pin #13 on Teensy 3.2.
 
 ``` bash
 pip install greatfet pyserial
-git clone https://github.com/xairy/Facedancer
+git clone https://github.com/greatscottgadgets/Facedancer
 cd Facedancer
 pip install .
 ```
@@ -420,7 +420,7 @@ umap2fuzz -P fd:/dev/ttyUSB0 -C keyboard
 sudo apt-get install qemu-system-x86 qemu-kvm qemu-utils
 git clone https://github.com/schumilo/vUSBf.git
 mkdir workdir
-TODO
+...
 ```
 
 
@@ -454,14 +454,12 @@ https://github.com/usb-tools/Facedancer.git
 
 ``` bash
 pip install greatfet pyserial
-git clone https://github.com/xairy/Facedancer.git
+git clone https://github.com/greatscottgadgets/Facedancer.git
 cd Facedancer
 pip install .
 # BACKEND=greatfet ./legacy-applets/facedancer-keyboard-interactive.py
 BACKEND=greatfet ./facedancer-usbproxy.py -v 046d -p c077
 ```
-
-TODO: `xairy` => `usb-tools`
 
 ### Sniffing USB with OpenVizsla
 
