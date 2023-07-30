@@ -29,6 +29,10 @@ Last iteration of the talk:
 
 [Dmytro Oleksiuk](https://twitter.com/d_olex) [twitter]
 
+[2022: "PCIe DMA Attack against a secured Jetson Nano (CVE-2022-21819)"](https://www.thegoodpenguin.co.uk/blog/pcie-dma-attack-against-a-secured-jetson-nano-cve-2022-21819/) [article]
+
+[2021: Dumping the Sonos One Smart Speaker](https://www.synacktiv.com/en/publications/dumping-the-sonos-one-smart-speaker) [article]
+
 [2021: "Modifying the Acorn CLE-215+ FPGA into a PCILeech DMA attack device"](https://blog.frizk.net/2021/10/acorn.html) [article]
 
 [2021: "PCIe Device Attacks: Beyond DMA"](https://i.blackhat.com/USA21/Wednesday-Handouts/us-21-PCIe-Device-Attacks-Beyond-DMA-Exploiting-PCIe-Switches-Messages-And-Errors.pdf) [slides]
@@ -91,6 +95,8 @@ Last iteration of the talk:
 
 ## Other
 
+[2023: PCI Express To Hell](https://www.youtube.com/watch?v=fE0fnGbI8B8)
+
 [2021: "Fuzzing Linux with Xen" by Tamas K Lengyel](https://media.defcon.org/DEF%20CON%2029/DEF%20CON%2029%20presentations/Tamas%20K%20Lengyel%20-%20Fuzzing%20Linux%20with%20Xen.pdf) [slides] [[video](https://www.youtube.com/watch?v=_dXC_I2ybr4)
 
 [2021: "An Introduction to IOMMU Infrastructure in the Linux Kernel"](https://lenovopress.lenovo.com/lp1467.pdf) [article]
@@ -108,3 +114,5 @@ http://thunderclap.io/
 https://github.com/NSAPlayset/SLOTSCREAMER
 
 https://github.com/carmaa/inception
+
+https://github.com/defparam/BAR-Tender
