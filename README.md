@@ -3,6 +3,8 @@ USB Hacking
 
 Materials for my "Introduction to USB hacking" talk.
 
+Also see [xairy/dma-attacks](https://github.com/xairy/dma-attacks).
+
 Last iteration of the talk:
 
 * [Online 2020](https://docs.google.com/presentation/d/1yeQigRsWQLko3TXNg8zsKT_45aHrcZgYhsKJvFc2yQk/edit?usp=sharing) [slides] [[video](https://www.youtube.com/watch?v=0bMxAdq1adc)]
