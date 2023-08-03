@@ -188,6 +188,26 @@ https://github.com/pelya/android-keyboard-gadget
 
 https://github.com/anbud/DroidDucky
 
+### OpenStick
+
+https://sensepost.com/blog/2023/p4wnp1-lte/
+
+https://hackaday.com/2022/08/03/hackable-20-modem-combines-lte-and-pi-zero-w2-power/
+
+https://www.zianet.com/jgray/openstick/
+
+https://extrowerk.com/2022/07/31/OpenStick/
+
+https://github.com/OpenStick/OpenStick
+
+https://forum.openwrt.org/t/uf896-qualcomm-msm8916-lte-router-384mib-ram-2-4gib-flash-android-openwrt/131712
+
+https://github.com/colemickens/mobile-nixos/tree/openstick/devices/openstick
+
+https://github.com/OpenStick/stick-blobs
+
+https://github.com/Mio-sha512/openstick-stuff/releases
+
 ### Other
 
 [USB Killer](https://usbkill.com/) [hardware]
@@ -610,5 +630,3 @@ https://github.com/ataradov/usb-sniffer
 https://labs.taszk.io/articles/post/reunzip/
 
 https://cracs.fc.up.pt/sites/default/files/USB%20connection%20vulnerabilities%20on%20Android%20smartphones.pdf
-
-https://sensepost.com/blog/2023/p4wnp1-lte/
