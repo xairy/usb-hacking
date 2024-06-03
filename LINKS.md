@@ -145,6 +145,8 @@ https://wiki.yobi.be/index.php/Raspdancer
 
 https://github.com/dominicgs/BeagleDancer
 
+[2024: "Hydradancer: Faster USB Emulation for Facedancer" by Thiebaud Fuchs](https://blog.quarkslab.com/hydradancer-faster-usb-emulation-for-facedancer.html) [article]
+
 ### Raspberry Pi Zero
 
 [Raspberry Pi Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/) [hardware]
@@ -243,6 +245,7 @@ Beagle analyzers:
 [USBNinja: BadUSB embedded into a USB cable](https://www.crowdsupply.com/rfid-research-group/usbninja) [hardware]
 
 [PhyWhisperer-USB](https://www.crowdsupply.com/newae/phywhisperer-usb) [hardware]
+[[github](https://github.com/newaetech/phywhispererusb)]
 
 [Maltronics WiFi KeyLogger Internal](https://web.archive.org/web/20211023150651/https://maltronics.com/products/wifi-keylogger-internal) [hardware] [archive]
 
@@ -250,16 +253,17 @@ Beagle analyzers:
 
 [EvilCrow Cable](https://github.com/joelsernamoreno/EvilCrow-Cable) [hardware]
 
+[Key Croc](https://shop.hak5.org/products/key-croc) [hardware]
+
 [Malduino](https://maltronics.com/collections/malduinos) [hardware]
 
 [USB Condom](https://int3.cc/products/usbcondoms) [hardware] [gone]
-
-[PhyWhisperer-USB](https://www.crowdsupply.com/newae/phywhisperer-usb) [hardware]
 
 [Cynthion: Multi-tool for building, analyzing, and hacking USB devices](https://www.crowdsupply.com/great-scott-gadgets/cynthion) [hardware]
 
 [O.MG Cable](https://o.mg.lol/) [hardware]
 [[video review](https://www.youtube.com/watch?v=mPF9f-PLDPc)]
+[[payloads](https://github.com/hak5/omg-payloads)]
 
 [Twinkie: USB-PD Sniffer](https://www.chromium.org/chromium-os/developer-library/guides/hardware-schematics/twinkie/) [hardware]
 
@@ -345,10 +349,16 @@ http://www.linux-usb.org/gadget/:
 
 [2019: "Using dummy-hcd to play with USB gadgets" by Andrzej Pietrasiewicz](https://www.collabora.com/news-and-blog/blog/2019/06/24/using-dummy-hcd/) [article]
 
+[2021: "USB On-The-Go (OTG)"](https://trac.gateworks.com/wiki/linux/OTG) [article]
+
 [2023: "A tour of USB Device Controller (UDC) in Linux" by Herve Codina](https://bootlin.com/pub/conferences/2023/eoss/codina-a-tour-of-usb-device-controller/codina-a-tour-of-usb-device-controller.pdf) [slides]
 [[video](https://www.youtube.com/watch?v=LJuE2RhfgnA)]
 
 [2023: "Test a Linux kernel USB Device Controller driver with testusb" by Herve Codina](https://bootlin.com/blog/test-a-linux-kernel-usb-device-controller-driver-with-testusb/) [article]
+
+[2024: "A comprehensive list of all ConfigFS, FunctionFS, USB Gadget API, etc. tools and libraries on Github"](https://www.reddit.com/r/linux/comments/1annx0u/a_comprehensive_list_of_all_configfs_functionfs/) [article]
+
+https://github.com/ProjectBulli/usb-gadget
 
 https://github.com/gadgetd/gadgetd/wiki/Motivation
 
@@ -421,6 +431,8 @@ https://github.com/AristoChen/usb-proxy
 
 ## Research
 
+[2024: "iOS: a journey in the USB networking stack" by Florian Le Minoux](https://www.synacktiv.com/publications/ios-a-journey-in-the-usb-networking-stack) [article]
+
 [2023: "Automotive USB Fuzzing" by Euntae Jang et al.](https://www.youtube.com/watch?v=W_vQ5s1bB30) [video]
 
 [2023: "Physical Attacks Against Smartphones" by Christopher Wade](https://media.defcon.org/DEF%20CON%2031/DEF%20CON%2031%20presentations/Christopher%20Wade%20-%20Physical%20Attacks%20Against%20Smartphones.pdf) [slides]
@@ -446,6 +458,8 @@ https://github.com/AristoChen/usb-proxy
 
 [2022: "PrIntFuzz: Fuzzing Linux Drivers via Automated Virtual Device Simulation" by Zheyu Ma et al.](https://dl.acm.org/doi/pdf/10.1145/3533767.3534226) [paper]
 
+[2022: "FUZZUSB: Hybrid Stateful Fuzzing of USB Gadget Stacks" by Kyungtae Kim et al.](https://lifeasageek.github.io/papers/kyungtae-fuzzusb.pdf) [paper]
+
 [2020: "USB PHY on FPGA" by Andrew Strokov](https://github.com/glitchcore/usbproxy/releases/download/1/USB.PHY.on.FPGA.pdf) [slides]
 [[code](https://github.com/glitchcore/usbproxy)]
 
@@ -453,6 +467,8 @@ https://github.com/AristoChen/usb-proxy
 [[video](https://www.youtube.com/watch?v=pq9t0VEIMio)
 
 [2020: "A file system for safely interacting with untrusted USB flash drives" by Ke Zhong et al.](https://www.usenix.org/conference/hotstorage20/presentation/zhong) [paper]
+
+[2020: "USBFuzz: A Framework for Fuzzing USB Drivers by Device Emulation" by Hui Peng and Mathias Payer](https://www.usenix.org/conference/usenixsecurity20/presentation/peng) [paper]
 
 [2019: "Making USB Accessible: Developing Ultra-low-cost, Open USB Tools"](https://greatscottgadgets.com/slides/making-usb-accessible-teardown-2019.pdf) [slides]
 [[video](https://greatscottgadgets.com/2019/06-26-making-usb-accessible-teardown-2019/)]
@@ -463,6 +479,8 @@ https://github.com/AristoChen/usb-proxy
 
 [2019: "Coverage-Guided USB Fuzzing with Syzkaller" by Andrey Konovalov](https://docs.google.com/presentation/d/1z-giB9kom17Lk21YEjmceiNUVYeI6yIaG5_gZ3vKC-M/edit) [slides]
 [[video](https://www.youtube.com/watch?v=1MD5JV6LfxA)]
+[[docs](https://github.com/google/syzkaller/blob/master/docs/linux/external_fuzzing_usb.md)]
+[[related](https://github.com/google/syzkaller/blob/master/docs/linux/external_fuzzing_usbip.md)]
 
 [2019: "USB Fuzzing: A USB Perspective" by Dave Jing Tian](https://davejingtian.org/2019/07/17/usb-fuzzing-a-usb-perspective/) [article]
 
@@ -501,6 +519,8 @@ https://github.com/AristoChen/usb-proxy
 [2018: "OH NO, WHERE'S FIDO? - A JOURNEY INTO NOVEL WEB-TECHNOLOGY AND U2F EXPLOITATION"](https://www.youtube.com/watch?v=pUa6nWWTO4o) [video]
 
 [2018: "Understanding HID report descriptors"](https://who-t.blogspot.com/2018/12/understanding-hid-report-descriptors.html) [article]
+
+[2018: "SoK: “Plug & Pray” Today – Understanding USB Insecurity in Versions 1 through C" by Dave (Jing) Tian et al.](https://par.nsf.gov/servlets/purl/10085547) [paper]
 
 [2017: "USB Snooping Made Easy: Crosstalk Leakage Attacks on USB Hubs" by Yang Su et al.](https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/su) [paper]
 
@@ -593,7 +613,13 @@ https://github.com/AristoChen/usb-proxy
 
 [USB 3.x SS enumeration](https://electronics.stackexchange.com/questions/297031/usb-3-x-ss-enumeration/297373#297373) [stackexchange]
 
-[Wikipedia: Juice jacking](https://en.wikipedia.org/wiki/Juice_jacking)
+[Wikipedia: Juice jacking](https://en.wikipedia.org/wiki/Juice_jacking) [article]
+
+[2024: "Making USB devices - end to end guide to your first gadget" by Uros Popovic](https://popovicu.com/posts/making-usb-devices/) [article]
+
+[2024: Why USB hubs suck by Michael Ossmann](https://mastodon.social/@mossmann/112514231563904529) [tweet]
+
+[2024: Reading Apple HID flash over USB](https://x.com/marcnewlin/status/1771568442564309151) [tweet]
 
 [2024: "Evolution of UNC4990: Uncovering USB Malware's Hidden Depths" by Diana Ion et al.](https://cloud.google.com/blog/topics/threat-intelligence/unc4990-evolution-usb-malware/) [article]
 
