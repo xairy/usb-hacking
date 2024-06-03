@@ -3,34 +3,38 @@
 A collection of USB related links.
 
 Another good list:
-[USB Reverse Engineering: Down the rabbit hole](http://devalias.net/devalias/2018/05/13/usb-reverse-engineering-down-the-rabbit-hole/).
+["USB Reverse Engineering: Down the rabbit hole" by Glenn Grant](https://devalias.net/devalias/2018/05/13/usb-reverse-engineering-down-the-rabbit-hole/).
 
 
-## Essential
+## Essentials
 
-["USB 101: An Introduction to Universal Serial Bus 2.0" by Robert Murphy](http://www.cypress.com/file/134171/download) [book]
+["USB 101: An Introduction to Universal Serial Bus 2.0" by Robert Murphy](https://www.cypress.com/file/134171/download) [book]
 
-["USB in a NutShell" by Craig Peacock](http://www.beyondlogic.org/usbnutshell/usb1.shtml) [articles]
+["USB in a NutShell" by Craig Peacock](https://www.beyondlogic.org/usbnutshell/usb1.shtml) [articles]
 
 [USB: Document Library](https://www.usb.org/documents)
 
 
 ## Workshops
 
-[Hacking the USB World with FaceDancer](https://usbc.tf/) [workshop]
+["Hacking the USB World with FaceDancer" by Kate Temkin](https://usb.ktemkin.com/) [workshop]
 
 
 ## Hardware
 
 ### Rubber Ducky
 
-[Rubber Ducky](https://hakshop.com/products/usb-rubber-ducky-deluxe) [hardware]
+[Rubber Ducky](https://shop.hak5.org/products/usb-rubber-ducky) [hardware]
 
-https://github.com/hak5darren/USB-Rubber-Ducky/wiki
+https://docs.hak5.org/hak5-usb-rubber-ducky
+
+https://github.com/hak5/usbrubberducky-payloads
 
 ### Bash Bunny
 
-[Bash Bunny](https://hakshop.com/products/bash-bunny) [hardware]
+[Bash Bunny](https://shop.hak5.org/products/bash-bunny) [hardware]
+
+https://docs.hak5.org/bash-bunny
 
 https://wiki.bashbunny.com/#!index.md
 
@@ -40,15 +44,17 @@ https://github.com/golem445/bunny_payloads
 
 ### Lan Turtle
 
-[LAN Turtle](https://www.hak5.org/gear/lan-turtle) [hardware]
+[LAN Turtle](https://hak5.org/products/lan-turtle) [hardware]
 
-https://www.hak5.org/gear/lan-turtle/docs
+https://github.com/hak5/lanturtle-modules
 
-### ATtiny85 board
+https://docs.hak5.org/lan-turtle
 
-[AliExpress: ATtiny85 board](https://www.aliexpress.com/item/Free-shipping-1pcs-Digispark-kickstarter-development-board-ATTINY85-module-for-Arduino-usb/32697283942.html) [hardware]
+### Digispark ATtiny85
 
-[1$ Rubber Ducky – Hack any PC within seconds MR.Robot style using Attiny85](http://www.khromozome.com/rubber-ducky-hack-pc-within-seconds-mr-robot-style-attiny85/)
+[AliExpress: Digispark ATtiny85](https://aliexpress.com/w/wholesale-Digispark.html) [hardware]
+
+[Configuring the Digispark ATTINY85 board for Arduino IDE and upgrading the bootloader](https://gist.github.com/Ircama/22707e938e9c8f169d9fe187797a2a2c) [article]
 
 https://github.com/toxydose/Duckyspark
 
@@ -56,7 +62,7 @@ https://github.com/micronucleus/micronucleus
 
 ### CJMCU BadUSB
 
-[AliExpress: CJMCU BadUSB](https://www.aliexpress.com/item/CJMCU-virtual-Keyboard-Badusb-USB-TTF-memory-Keyboard-ATMEGA32U4-module/32817551271.html) [hardware]
+[AliExpress: CJMCU BadUSB](https://aliexpress.com/w/wholesale-CJMCU-BadUSB.html) [hardware]
 
 https://github.com/mharjac/bad_ducky
 
@@ -64,7 +70,7 @@ https://github.com/mharjac/bad_ducky
 
 [AliExpress: Cactus WHID](https://www.aliexpress.com/item/Cactus-Micro-compatible-board-plus-WIFI-chip-esp8266-for-atmega32u4/32318391529.html) [hardware]
 
-[AliExpress: Cactus Micro Rev2](https://www.aliexpress.com/item/Cactus-Micro-Rev2-Pro-Micro-atmega32u4-WIFI-ESP8266-module-ESP-11-ESP-03/32804236925.html) [hardware]
+[AliExpress: Cactus Micro Rev2](https://wiki.aprbrother.com/en/Cactus_Micro_Rev2.html) [hardware]
 
 https://github.com/whid-injector/WHID
 
@@ -82,7 +88,7 @@ https://github.com/exploitagency/ESPloitV2
 
 https://github.com/PaulStoffregen/cores
 
-#### Various tools
+#### Teensy-based tools
 
 https://github.com/ebursztein/malusb
 
@@ -96,29 +102,27 @@ https://github.com/Screetsec/Brutal
 
 https://github.com/samratashok/Kautilya
 
-http://www.irongeek.com/i.php?page=security/programmable-hid-usb-keystroke-dongle
+https://www.irongeek.com/i.php?page=security/programmable-hid-usb-keystroke-dongle
 
 https://github.com/offensive-security/hid-backdoor-peensy
 
-https://github.com/kbeflo/teensy-payloads
+https://github.com/kleo/teensy-payloads
 
-http://kevincuzner.com/2014/12/12/teensy-3-1-bare-metal-writing-a-usb-driver/
+https://kevincuzner.com/2014/12/12/teensy-3-1-bare-metal-writing-a-usb-driver/
 
 ### Facedancer
 
-[Facedancer21](http://goodfet.sourceforge.net/hardware/facedancer21/) [hardware]
+[Facedancer21](https://goodfet.sourceforge.net/hardware/facedancer21/) [hardware]
 
-[GreatFET One](https://shop.hak5.org/products/greatfet) [hardware]
+[GreatFET One](https://greatscottgadgets.com/greatfet/one/) [hardware]
 
-[FaceDancer21 (USB Emulator/USB Fuzzer)](https://int3.cc/products/facedancer21)
+[2012: "Emulating USB Devices with Python" by Travis Goodspeed](https://travisgoodspeed.blogspot.de/2012/07/emulating-usb-devices-with-python.html) [article]
 
-[2012: "Emulating USB Devices with Python" by Travis Goodspeed](http://travisgoodspeed.blogspot.de/2012/07/emulating-usb-devices-with-python.html) [article]
-
-[2012: "Emulating USB DFU to Capture Firmware" by Travis Goodspeed](http://travisgoodspeed.blogspot.de/2012/10/emulating-usb-dfu-to-capture-firmware.html) [article]
+[2012: "Emulating USB DFU to Capture Firmware" by Travis Goodspeed](https://travisgoodspeed.blogspot.de/2012/10/emulating-usb-dfu-to-capture-firmware.html) [article]
 
 [2017: "FaceDancer 2.0" by Dominic Spill](https://www.youtube.com/watch?v=L3Ug9591Vag) [video]
 
-https://github.com/usb-tools/Facedancer
+https://github.com/greatscottgadgets/facedancer
 
 https://github.com/travisgoodspeed/goodfet
 
@@ -128,15 +132,15 @@ https://github.com/nccgroup/umap2
 
 https://github.com/usb-tools/nu-map
 
-USB MitM with two Facedacer21 boards [1](https://github.com/withdk/badusb2-mitm-poc), [2](http://seclist.us/badusb-2-0-usb-mitm-poc.html)
+USB MitM with two Facedacer21 boards [[1](https://github.com/withdk/badusb2-mitm-poc)], [[2](https://web.archive.org/web/20221208061721/https://seclist.us/badusb-2-0-usb-mitm-poc.html)]
 
-http://wiki.yobi.be/wiki/Raspdancer
+https://wiki.yobi.be/index.php/Raspdancer
 
 https://github.com/dominicgs/BeagleDancer
 
 ### Raspberry Pi Zero
 
-[Raspberry Pi Zero](https://www.raspberrypi.org/products/raspberry-pi-zero/) [hardware]
+[Raspberry Pi Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/) [hardware]
 
 [Turning your Raspberry PI Zero into a USB Gadget](https://learn.adafruit.com/turning-your-raspberry-pi-zero-into-a-usb-gadget) [article]
 
@@ -150,7 +154,7 @@ https://github.com/samyk/poisontap
 
 https://github.com/darrylburke/RaspberryPiZero_HID_MultiTool/
 
-https://github.com/theresalu/rspiducky
+https://github.com/msjmeyer/rspiducky
 
 https://github.com/bkerler/sahara_emulator
 
@@ -158,13 +162,13 @@ https://github.com/bkerler/sahara_emulator
 
 [BeagleBone Black](https://beagleboard.org/black) [hardware]
 
-https://github.com/dominicgs/USBProxy
+https://github.com/usb-tools/USBProxy-legacy
 
 [2014: "USB write blocking with USBProxy" by Dominic Spill](https://dominicspill.com/presentations/2014/Spill_BSidesLV_USBProxy_slides.pdf) [slides]
 
 [2016: "USBiquitous: USB intrusion toolkit" by Benoit Camredon](https://www.sstic.org/media/SSTIC2016/SSTIC-actes/usb_toolkit/SSTIC2016-Article-usb_toolkit-camredon.pdf) [article]
 
-http://beagleboard-usbsniffer.blogspot.de/
+https://beagleboard-usbsniffer.blogspot.de/
 
 https://github.com/dominicgs/BeagleDancer
 
@@ -176,7 +180,7 @@ https://github.com/matlo/bb_usb_sniffer (beagleboard xM)
 
 [2015: "USB Armory as an Offensive Attack Platform"](https://raw.githubusercontent.com/wiki/inversepath/usbarmory/contrib/USB%20Armory%20as%20an%20Offensive%20Attack%20Platform%20Jeroen_van_Kessel-and-Nick_Triantafyllidis.pdf) [paper]
 
-[2016: "Forging USB armory" by Andrea Barisani](https://dev.inversepath.com/download/usbarmory/forging_the_usb_armory.pdf) [slides] [[video]](https://www.youtube.com/watch?v=yG6eemBNyjM)
+[2016: "Forging USB armory" by Andrea Barisani](https://www.blackhat.com/docs/asia-15/materials/asia-15-Barisani-Forging-The-USB-Armory.pdf) [slides] [[video](https://www.youtube.com/watch?v=MsK2V_iO9Z4)]
 
 [2016: "Snagging creds from locked machines" by Rob Fuller](https://room362.com/post/2016/snagging-creds-from-locked-machines/) [article]
 
@@ -212,7 +216,7 @@ https://github.com/Mio-sha512/openstick-stuff/releases
 
 [USB Killer](https://usbkill.com/) [hardware]
 
-Beagle analyzers ([1](https://www.totalphase.com/products/beagle-usb12/)], [[2](https://www.totalphase.com/products/beagle-usb480/)], [[3](https://www.totalphase.com/products/beagle-usb5000-v2-ultimate/)])
+Beagle analyzers: [[1](https://www.totalphase.com/products/beagle-usb12/)], [[2](https://www.totalphase.com/products/beagle-usb480/)], [[3](https://www.totalphase.com/products/beagle-usb5000-v2-ultimate/)]
 
 [OpenVizsla](http://openvizsla.org/) [hardware]
 
@@ -220,26 +224,28 @@ Beagle analyzers ([1](https://www.totalphase.com/products/beagle-usb12/)], [[2](
 
 [Tomu: An ARM board that fits inside your USB connector](https://www.crowdsupply.com/sutajio-kosagi/tomu) [hardware]
 
-[AirDrive Keylogger](http://www.keelog.com/hardware-keylogger/) [hardware]
+[AirDrive Keylogger](https://www.keelog.com/hardware-keylogger/) [hardware]
 
-[LambdaConcept USB2 SNIFFER](http://shop.lambdaconcept.com/home/35-usb2-sniffer.html) [hardware]
+[LambdaConcept USB2 SNIFFER](https://shop.lambdaconcept.com/home/35-usb2-sniffer.html) [hardware]
 
 [USBNinja: BadUSB embedded into a USB cable](https://www.crowdsupply.com/rfid-research-group/usbninja) [hardware]
 
-[Raspberry Pi Zero W USB-A Addon Board](http://www.raspberrypiwiki.com/index.php/Raspberry_Pi_Zero_W_USB-A_Addon_Board) [hardware]
-
 [PhyWhisperer-USB](https://www.crowdsupply.com/newae/phywhisperer-usb) [hardware]
 
-[Maltronics WiFi KeyLogger Internal](https://maltronics.com/products/wifi-keylogger-internal)
+[Maltronics WiFi KeyLogger Internal](https://web.archive.org/web/20211023150651/https://maltronics.com/products/wifi-keylogger-internal) [hardware] [archive]
 
-[KEYVILBOARD](https://keyvilboard.nl/en/)
+[KEYVILBOARD](https://www.tindie.com/stores/keyvilboard/) [hardware]
 
-[EvilCrow Cable](https://github.com/joelsernamoreno/EvilCrow-Cable)
+[EvilCrow Cable](https://github.com/joelsernamoreno/EvilCrow-Cable) [hardware]
 
 
 ## Linux USB stack
 
 https://www.kernel.org/doc/Documentation/usb/
+
+https://www.kernel.org/doc/html/latest/usb/index.html
+
+[Linux USB API](https://www.kernel.org/doc/html/latest/driver-api/usb/index.html)
 
 http://www.linux-usb.org/
 
@@ -251,13 +257,11 @@ http://www.linux-usb.org/
 
 [USB General Guide Linux v3.8](http://processors.wiki.ti.com/index.php/USB_General_Guide_Linux_v3.8)
 
-[Linux USB API](https://www.kernel.org/doc/html/latest/driver-api/usb/index.html)
-
-[Bootstrap Yourself with Linux-USB Stack: Design, Develop, Debug, and Validate Embedded USB](http://index-of.es/OS/Linux-USB%20Stack.pdf) [book]
+[Bootstrap Yourself with Linux-USB Stack: Design, Develop, Debug, and Validate Embedded USB](https://www.goodreads.com/book/show/11292815-bootstrap-yourself-with-linux-usb-stack) [book]
 
 ### usbmon
 
-https://www.kernel.org/doc/Documentation/usb/usbmon.txt
+https://www.kernel.org/doc/html/latest/usb/usbmon.html
 
 https://wiki.ubuntu.com/Kernel/Debugging/USB
 
@@ -265,27 +269,32 @@ https://wiki.ubuntu.com/Kernel/Debugging/USB
 
 ### Gadget subsystem
 
-[Kernel USB Gadget Configfs Interface](http://events.linuxfoundation.org/sites/events/files/slides/USB%20Gadget%20Configfs%20API_0.pdf) [slides]
+https://www.kernel.org/doc/html/latest/driver-api/usb/gadget.html
 
-[Create your own USB gadget with GadgetFS](http://blog.soutade.fr/post/2016/07/create-your-own-usb-gadget-with-gadgetfs.html) [article]
+https://www.kernel.org/doc/html/latest/usb/index.html:
+[testing](https://www.kernel.org/doc/html/latest/usb/gadget-testing.html),
+[configfs](https://www.kernel.org/doc/html/latest/usb/gadget_configfs.html),
+[functionfs](https://www.kernel.org/doc/html/latest/usb/functionfs.html)
+[hid](https://www.kernel.org/doc/html/latest/usb/gadget_hid.html),
+[multi](https://www.kernel.org/doc/html/latest/usb/gadget_multi.html),
+[printer](https://www.kernel.org/doc/html/latest/usb/gadget_printer.html),
+[serial](https://www.kernel.org/doc/html/latest/usb/gadget_serial.html),
+etc.
+
+http://www.linux-usb.org/usbtest/
+
+http://www.linux-usb.org/gadget/:
+[usb.c](http://www.linux-usb.org/gadget/usb.c),
+[usbstring.c](http://www.linux-usb.org/gadget/usbstring.c),
+[usbstring.h](http://www.linux-usb.org/gadget/usbstring.h)
+
+[Kernel USB Gadget Configfs Interface](https://elinux.org/images/e/ef/USB_Gadget_Configfs_API_0.pdf) [slides]
+
+[Create your own USB gadget with GadgetFS](https://blog.soutade.fr/post/2016/07/create-your-own-usb-gadget-with-gadgetfs.html) [article]
 
 [ConfigFS Gadget - An Introduction](https://www.slideshare.net/linaroorg/sfo15311-configfs-gadget-an-introduction) [slides]
 
 https://github.com/gadgetd/gadgetd/wiki/Motivation
-
-https://wiki.tizen.org/wiki/USB/Linux_USB_Layers/Configfs_Composite_Gadget/General_configuration
-
-https://www.kernel.org/doc/htmldocs/gadget/
-
-https://www.kernel.org/doc/Documentation/usb/functionfs.txt
-
-https://www.kernel.org/doc/Documentation/usb/ (gadget: [testing.txt](https://www.kernel.org/doc/Documentation/usb/gadget_testing.txt), [configfs.txt](https://www.kernel.org/doc/Documentation/usb/gadget_configfs.txt), [hid.txt](https://www.kernel.org/doc/Documentation/usb/gadget_hid.txt), [multi.txt](https://www.kernel.org/doc/Documentation/usb/gadget_multi.txt), [printer.txt](https://www.kernel.org/doc/Documentation/usb/gadget_printer.txt), [serial.txt](https://www.kernel.org/doc/Documentation/usb/gadget_serial.txt))
-
-http://www.linux-usb.org/usbtest/
-
-http://www.linux-usb.org/gadget/ ([usb.c](http://www.linux-usb.org/gadget/usb.c) + [usbstring.c](http://www.linux-usb.org/gadget/usbstring.c) + [usbstring.h](http://www.linux-usb.org/gadget/usbstring.h))
-
-https://sourceforge.net/p/hid-gadgetfs/code/ci/master/tree/
 
 https://github.com/ueno/libusb-gadget
 
@@ -294,37 +303,37 @@ https://github.com/qlyoung/keyboard-gadget
 
 ## Tools
 
-[ViewSB: open-source USB analyzer toolkit with support for a variety of capture hardware](https://github.com/usb-tools/ViewSB) [github]
+[ViewSB: Open-source USB analyzer toolkit for variety of capture hardware](https://github.com/greatscottgadgets/ViewSB) [github]
 
 [usbrip: Simple CLI forensics tool for tracking USB events on GNU/Linux](https://github.com/snovvcrash/usbrip) [github]
 
-[usbq: Python-based programming framework for monitoring and modifying USB communications](https://github.com/carvesystems/usbq) [github]
+[usbq: Python-based programming framework for monitoring and modifying USB communications](https://github.com/ivision-research/usbq) [github]
 
-[hidviz: A tool for in-depth analysis of USB HID devices communication](https://github.com/ondrejbudai/hidviz) [github]
+[hidviz: Tool for in-depth analysis of USB HID devices communication](https://github.com/hidviz/hidviz) [github]
 
-[vusb-analyzer: Virtual USB Analyzer](https://github.com/scanlime/vusb-analyzer) [github]
+[vusb-analyzer: Virtual USB Analyzer](https://github.com/a-sf-mirror/vusb-analyzer) [github] [[sourceforge](https://vusb-analyzer.sourceforge.net/)]
 
-[USaBUSe: a project to demonstrate the risks of hardware bypasses of software security](https://github.com/sensepost/USaBUSe) [github]
+[USaBUSe: Project to demonstrate risks of hardware bypasses of software security](https://github.com/sensepost/USaBUSe) [github]
 
 [usb-device-fuzzing: Some tools for testing USB devices](https://github.com/ollseg/usb-device-fuzzing) [github]
 
-[usbguard: USBGuard is a software framework for implementing USB device authorization policies](https://github.com/dkopecek/usbguard/)
+[usbguard: Software framework for implementing USB device authorization policies](https://github.com/USBGuard/usbguard) [github]
 
-[usb-canary: A Linux or OSX tool that uses psutil to monitor devices while your computer is locked](https://github.com/errbufferoverfl/usb-canary) [github]
+[usb-canary: Linux/OSX tool that uses psutil to monitor devices while your computer is locked](https://github.com/errbufferoverfl/usb-canary) [github]
 
-[usbkill: an anti-forensic kill-switch that waits for a change on your USB ports and then immediately shuts down your computer](https://github.com/hephaest0s/usbkill) [github]
+[usbkill: Anti-forensic kill-switch that waits for change on USB ports and then immediately shuts down computer](https://github.com/hephaest0s/usbkill) [github]
 
 [uhubctl: USB hub per-port power control](https://github.com/mvp/uhubctl) [github]
 
-[hub-ctrl.c: Control USB power on a port by port basis on some USB hubs](https://github.com/codazoda/hub-ctrl.c) [github]
+[hub-ctrl.c: Control USB power on port by port basis on some USB hubs](https://github.com/codazoda/hub-ctrl.c) [github]
 
 [webcam-tools: Update of the UVC webcam tools](https://github.com/cshorler/webcam-tools) [github]
 
-[facewhisperer: USB host add-on for the ChipWhisperer side-channel analysis tool](https://github.com/scanlime/facewhisperer) [github]
+[USBDescriptorKitchen: USB Descriptor creation and maintainance tool](https://github.com/zonque/USBDescriptorKitchen) [github]
 
-[USBDescriptorKitchen: A USB Descriptor creation and maintainance tool](https://github.com/zonque/USBDescriptorKitchen) [github]
+[usbwall: Control LDAP users access to USB devices](https://github.com/Turanic/usbwall) [github]
 
-[usbwall: Control ldap users access to usb devices](https://github.com/Turanic/usbwall) [github]
+[facewhisperer: USB host add-on for the ChipWhisperer side-channel analysis tool](https://github.com/scanlime/facewhisperer) [github] [gone]
 
 
 ## Research
@@ -339,43 +348,41 @@ https://github.com/qlyoung/keyboard-gadget
 [[slides](https://docs.google.com/presentation/d/1z-giB9kom17Lk21YEjmceiNUVYeI6yIaG5_gZ3vKC-M/edit)]
 [[video](https://www.youtube.com/watch?v=1MD5JV6LfxA)]
 
-[2019: "Simple AV Evasion Symantec and P4wnP1 USB"](https://medium.com/@fbotes2/advance-av-evasion-symantec-and-p4wnp1-usb-c7899bcbc6af) [article]
+[2019: "Simple AV Evasion Symantec and P4wnP1 USB"](https://initroot.me/advance-av-evasion-symantec-and-p4wnp1-usb) [article]
 
 [2019: "Hacking microcontroller firmware through a USB"](https://securelist.com/hacking-microcontroller-firmware-through-a-usb/89919/) [article]
 
-[2018: "ATtention Spanned: Comprehensive Vulnerability Analysis of AT Commands Within the Android Ecosystem"](https://atcommands.org/sec18-tian.pdf) [paper]
+[2018: "ATtention Spanned: Comprehensive Vulnerability Analysis of AT Commands Within the Android Ecosystem"](https://www.usenix.org/conference/usenixsecurity18/presentation/tian) [paper]
 
 [2018: "USB Hub Bug Hunting & Lessons Learned"](https://www.pjrc.com/usb-hub-bug-hunting-lessons-learned/) [article]
 
 [2018: "Tick Group Weaponized Secure USB Drives to Target Air-Gapped Critical Systems"](https://researchcenter.paloaltonetworks.com/2018/06/unit42-tick-group-weaponized-secure-usb-drives-target-air-gapped-critical-systems/) [article]
 
-[2018: "Discovering and Plotting Hidden Networks created with USB Devices"](https://www.exploit-db.com/docs/english/44947-discovering-and-plotting-hidden-networks-created-with-usb-devices.pdf)
+[2018: "Discovering and Plotting Hidden Networks created with USB Devices"](https://www.exploit-db.com/docs/english/44947-discovering-and-plotting-hidden-networks-created-with-usb-devices.pdf) [paper]
 
-[2018: "Advanced USB key phishing"](http://blog.sevagas.com/?Advanced-USB-key-phishing)
+[2018: "Advanced USB key phishing"](https://blog.sevagas.com/?Advanced-USB-key-phishing) [article]
 
 [2018: "Android: directory traversal over USB via injection in blkid output"](https://bugs.chromium.org/p/project-zero/issues/detail?id=1583) [article]
 
-[2018: "OPENING BLACK BOX SYSTEMS WITH GREATFET+FD"](https://download.ernw-insight.de/troopers/tr18/slides/TR18_AR_RE-Black-Box-Systems-GreatFET-Facedancer.pdf)
+[2018: "OPENING BLACK BOX SYSTEMS WITH GREATFET+FD"](https://greatscottgadgets.com/slides/TR18_AR_RE-Black-Box-Systems-GreatFET-Facedancer.pdf) [slides]
 
 [2018: "Preventing USB Attacks with linux-hardened"](https://blog.lizzie.io/preventing-usb-attacks-with-linux-hardened.html) [article]
 
 [2018: "Here's a List of 29 Different Types of USB Attacks" by Catalin Cimpanu](https://www.bleepingcomputer.com/news/security/heres-a-list-of-29-different-types-of-usb-attacks/) [article]
 
-[2018: Massive scale usb device driver fuzz without device"](https://www.slideshare.net/mobile/MSbluehat/bluehat-v18-massive-scale-usb-device-driver-fuzz-without-device) [slides]
+[2018: "Massive scale usb device driver fuzz without device"](https://www.slideshare.net/mobile/MSbluehat/bluehat-v18-massive-scale-usb-device-driver-fuzz-without-device) [slides]
 
 [2018: "OATmeal on the Universal Cereal Bus: Exploiting Android phones over USB"](https://googleprojectzero.blogspot.com/2018/09/oatmeal-on-universal-cereal-bus.html) [article]
 
 [2018: "OH NO, WHERE'S FIDO? - A JOURNEY INTO NOVEL WEB-TECHNOLOGY AND U2F EXPLOITATION"](https://www.youtube.com/watch?v=pUa6nWWTO4o) [video]
 
-[2018: "Understanding HID report descriptors"](http://who-t.blogspot.com/2018/12/understanding-hid-report-descriptors.html) [article]
+[2018: "Understanding HID report descriptors"](https://who-t.blogspot.com/2018/12/understanding-hid-report-descriptors.html) [article]
 
-[2017: "USB Snooping Made Easy: Crosstalk Leakage Attacks on USB Hubs" by Yang Su, Daniel Genkin, Damith Ranasinghe and Yuval Yarom](http://autoidlab.cs.adelaide.edu.au/sites/default/files/publications/papers/camera.pdf) [paper]
+[2017: "USB Snooping Made Easy: Crosstalk Leakage Attacks on USB Hubs" by Yang Su et al.](https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/su) [paper]
 
 [2017: "USBGuard: authorization for USB" by Nur Hussein](https://lwn.net/Articles/738306/) [article]
 
-2017: "POTUS: Probing Off-The-Shelf USB Drivers with Symbolic Fault Injection" by James Patrick-Evans, Lorenzo Cavallaro, and Johannes Kinder
-[[slides](https://www.usenix.org/sites/default/files/conference/protected-files/woot17_slides_patrick-evans.pdf)]
-[[paper](https://www.usenix.org/system/files/conference/woot17/woot17-paper-patrick-evans.pdf)]
+[2017: "POTUS: Probing Off-The-Shelf USB Drivers with Symbolic Fault Injection" by James Patrick-Evans et al.](https://www.usenix.org/conference/woot17/workshop-program/presentation/patrick-evans) [paper]
 
 [2017: "Exploiting USB/IP in Linux" by Ignat Korchagin](https://www.blackhat.com/docs/asia-17/materials/asia-17-Korchagin-Exploiting-USBIP-In-Linux.pdf) [slides]
 
@@ -389,9 +396,7 @@ https://github.com/qlyoung/keyboard-gadget
 
 [2016: "Alternate Mode for USB Type-C: Going beyond USB"](http://www.ti.com/lit/wp/slly021/slly021.pdf) [article]
 
-2016: "Making USB Great Again with USBFILTER"
-[[slides](https://www.usenix.org/sites/default/files/conference/protected-files/security16_slides_tian.pdf)]
-[[paper](https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_tian.pdf)]
+[2016: "Making USB Great Again with USBFILTER"](https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/tian) [paper]
 
 2015: "USB Attack to Decrypt Wi Fi Communications" by Jeremy Dorrough
 [[slides](https://media.defcon.org/DEF%20CON%2023/DEF%20CON%2023%20presentations/DEFCON-23-Jeremy-Dorrough-USB-Attack-to-Decrypt-Wi-Fi-Communications.pdf)]
@@ -401,7 +406,7 @@ https://github.com/qlyoung/keyboard-gadget
 [[slides](https://github.com/CryptoMonkey/Conference-Presentations/blob/master/Defcon%2023%20(2015)%20-%20Introduction%20to%20USB%20and%20Fuzzing/Matt%20DuHarte%20-%20HHV%20-%20Introduction%20to%20USB%20and%20Fuzzing.pdf)]
 [[video](https://www.youtube.com/watch?v=KWOTXypBt4E)]
 
-2015: "Don't Trust Your USB! How to Find Bugs in USB Device Drivers" by Sergej Schumilo, Ralf Spenneberg, and Hendrik Schwartke
+2015: "Don't Trust Your USB! How to Find Bugs in USB Device Drivers" by Sergej Schumilo et al.
 [[slides](https://www.blackhat.com/docs/eu-14/materials/eu-14-Schumilo-Dont-Trust-Your-USB-How-To-Find-Bugs-In-USB-Device-Drivers.pdf)]
 [[paper](https://www.blackhat.com/docs/eu-14/materials/eu-14-Schumilo-Dont-Trust-Your-USB-How-To-Find-Bugs-In-USB-Device-Drivers-wp.pdf)]
 [[video](https://www.youtube.com/watch?v=OAbzN8k6Am4)]
@@ -411,8 +416,9 @@ https://github.com/qlyoung/keyboard-gadget
 [2015: "USB - An Attack Surface of Emerging Importance"](https://tubdok.tub.tuhh.de/bitstream/11420/1286/1/USB%20-%20An%20Attack%20Surface%20of%20Emerging%20Importance.pdf) [thesis]
 
 2014: "BadUSB - On Accessories that Turn Evil" by Karsten Nohl and Jakob Lell
-[[slides](https://srlabs.de/wp-content/uploads/2014/07/SRLabs-BadUSB-BlackHat-v1.pdf)]
+[[slides](https://assets-global.website-files.com/6098eeb4f4b0288367fbb639/62bc77a987dd057cc3e28599_SRLabs-BadUSB-Pacsec-v2.pdf)]
 [[video](https://www.youtube.com/watch?v=nuruzFqMgIw)]
+[[wiki](https://opensource.srlabs.de/projects/badusb/wiki)]
 
 2014: "USB Attacks Need Physical Access Right? Not Any More…" by Andy Davis
 [[slides](https://www.blackhat.com/docs/asia-14/materials/Davis/Asia-14-Davis-USB-Attacks-Need-Physical-Access-Right-Not-Any-More.pdf)]
@@ -426,17 +432,13 @@ https://github.com/qlyoung/keyboard-gadget
 
 [2014: "Make your own USB gadget Kernel and userspace"](https://events.static.linuxfound.org/sites/events/files/slides/LinuxConNA-Make-your-own-USB-gadget-Andrzej.Pietrasiewicz.pdf) [slides]
 
-2014: BadUSB - On accessories that turn evil
-[[slides](https://srlabs.de/wp-content/uploads/2014/11/SRLabs-BadUSB-Pacsec-v2.pdf)]
-[[wiki](https://opensource.srlabs.de/projects/badusb/wiki)]
-
 [2014: HubCap: pwning the ChromeCast pt. 1](https://fail0verflow.com/blog/2014/hubcap-chromecast-root-pt1/) [article]
 
 [2013: iSeeYou: Disabling the MacBook Webcam Indicator LED](https://jscholarship.library.jhu.edu/bitstream/handle/1774.2/36569/camera.pdf) [paper]
 
 [2012: "Fuzzing the USB in your devices" by Olle Segerdahl](https://olle.nxs.se/software/usbdevfuzz/fuzzing-usb-devices.pdf) [slides]
 
-[2011: "USB Fuzzing for the Masses"](https://labs.mwrinfosecurity.com/blog/usb-fuzzing-for-the-masses/) [article]
+[2011: "USB Fuzzing for the Masses"](https://labs.withsecure.com/publications/usb-fuzzing-for-the-masses) [article]
 
 [2011: "USB Security Challenges"](https://blog.invisiblethings.org/2011/05/31/usb-security-challenges.html) [article]
 
@@ -466,8 +468,6 @@ https://opensource.srlabs.de/projects/badusb
 Making Pioneer DDJ-RB USB audio work on Linux
 [[video 1](https://www.youtube.com/watch?v=cUVuTBH51GY)]
 [[video 2](https://www.youtube.com/watch?v=nevJHGFx0yA)]
-
-https://www.twitch.tv/ktemkin
 
 https://github.com/brandonlw/Psychson
 
