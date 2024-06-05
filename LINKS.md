@@ -1,10 +1,44 @@
 # Links
 
-A collection of USB related links.
+A collection of USB hacking–related links.
 
 Another good list:
 ["USB Reverse Engineering: Down the rabbit hole" by Glenn Grant](https://devalias.net/devalias/2018/05/13/usb-reverse-engineering-down-the-rabbit-hole/).
 
+Follow [@andreyknvl](https://twitter.com/andreyknvl) on Twitter or [@xairy@infosec.exchange](https://infosec.exchange/@xairy) on Mastodon to be notified of updates.
+
+## Contents
+
+- [Essentials](#essentials)
+- [Workshops](#workshops)
+- [Hardware](#hardware)
+	- [Dedicated BadUSB](#dedicated-badusb)
+		- [Rubbery Ducky](#rubber-ducky)
+		- [Bash Bunny](#bash-bunny)
+		- [Digispark](#digispark)
+		- [CJMCU BadUSB](#cjmcu-badusb)
+		- [Cactus WHID](#cactus-whid)
+	- [Facedancer-compatible boards](#facedancer-compatible-boards)
+	- [Arduino boards](#arduino-boards)
+		- [Teensy](#teensy)
+		- [Other Arduino](#other-arduino)
+	- [Linux boards](#linux-boards)
+		- [Raspberry Pi Zero](#raspberry-pi-zero)
+		- [BeagleBone Black](#beaglebone-black)
+		- [USB Armory](#usb-armory)
+		- [OpenStick](#openstick)
+		- [Android](#android)
+	- [Malicious cables](#malicious-cables)
+	- [Keyloggers](#keyloggers)
+	- [Sniffers and analyzers](#sniffers-and-analyzers)
+	- [Other hardware](#other-hardware)
+- [Linux USB stack](#linux-usb-stack)
+	- [usbmon](#usbmon)
+	- [Gadget subsystem](#gadget-subsystem)
+		- [Raw Gadget](#raw-gadget)
+- [Tools](#tools)
+- [Research](#research)
+- [Misc](#misc)
 
 ## Essentials
 
@@ -75,7 +109,7 @@ https://github.com/golem445/bunny_payloads
 [ESPloitV2: Wi-Fi Keystroke Injection Tool designed for Cactus WHID](https://github.com/exploitagency/ESPloitV2) [github]
 
 
-### Facedancer
+### Facedancer-compatible boards
 
 [Cynthion: Multi-tool for building, analyzing, and hacking USB devices](https://www.crowdsupply.com/great-scott-gadgets/cynthion) [hardware]
 
@@ -200,7 +234,7 @@ https://github.com/dominicgs/BeagleDancer
 https://github.com/matlo/bb_usb_sniffer (beagleboard xM)
 
 
-#### USB armory
+#### USB Armory
 
 [USB Armory](https://inversepath.com/usbarmory) [hardware]
 
@@ -401,7 +435,7 @@ https://github.com/ueno/libusb-gadget
 https://github.com/qlyoung/keyboard-gadget
 
 
-### Raw Gadget
+#### Raw Gadget
 
 https://github.com/xairy/raw-gadget
 
