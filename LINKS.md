@@ -22,7 +22,9 @@ Another good list:
 
 ## Hardware
 
-### Rubber Ducky
+### Dedicated BadUSB
+
+#### Rubber Ducky
 
 [Rubber Ducky](https://shop.hak5.org/products/usb-rubber-ducky) [hardware]
 
@@ -30,7 +32,8 @@ https://docs.hak5.org/hak5-usb-rubber-ducky
 
 https://github.com/hak5/usbrubberducky-payloads
 
-### Bash Bunny
+
+#### Bash Bunny
 
 [Bash Bunny](https://shop.hak5.org/products/bash-bunny) [hardware]
 
@@ -42,84 +45,43 @@ https://github.com/hak5/bashbunny-payloads
 
 https://github.com/golem445/bunny_payloads
 
-### Lan Turtle
 
-[LAN Turtle](https://hak5.org/products/lan-turtle) [hardware]
+#### Digispark
 
-https://github.com/hak5/lanturtle-modules
+[Digispark: Tiny, Arduino-enabled, USB development board](https://www.kickstarter.com/projects/digistump/digispark-the-tiny-arduino-enabled-usb-dev-board) [hardware] [[aliexpress](https://aliexpress.com/w/wholesale-Digispark.html)]
 
-https://docs.hak5.org/lan-turtle
+[2021: "Configuring Digispark for Arduino IDE and upgrading bootloader"](https://gist.github.com/Ircama/22707e938e9c8f169d9fe187797a2a2c) [article]
 
-### Digispark ATtiny85
+[Duckyspark: Translator from USB Rubber Ducky payloads to Digispark code](https://github.com/toxydose/Duckyspark) [github]
 
-[AliExpress: Digispark ATtiny85](https://aliexpress.com/w/wholesale-Digispark.html) [hardware]
+[micronucleus: ATtiny USB bootloader with strong emphasis on bootloader compactness](https://github.com/micronucleus/micronucleus) [github]
 
-[Configuring the Digispark ATTINY85 board for Arduino IDE and upgrading the bootloader](https://gist.github.com/Ircama/22707e938e9c8f169d9fe187797a2a2c) [article]
 
-https://github.com/toxydose/Duckyspark
+#### CJMCU BadUSB
 
-https://github.com/micronucleus/micronucleus
+[CJMCU BadUSB](https://aliexpress.com/w/wholesale-CJMCU-BadUSB.html) [hardware]
 
-### CJMCU BadUSB
+[bad_ducky: Rubber Ducky–compatible clone based on CJMCU BadUSB](https://github.com/mharjac/bad_ducky) [github]
 
-[AliExpress: CJMCU BadUSB](https://aliexpress.com/w/wholesale-CJMCU-BadUSB.html) [hardware]
 
-https://github.com/mharjac/bad_ducky
+#### Cactus WHID
 
-### Cactus WHID
+[Cactus WHID: Wi-Fi HID Injector — USB Rubber Ducky / BadUSB On Steroids](https://github.com/whid-injector/WHID) [hardware]
 
-[AliExpress: Cactus WHID](https://www.aliexpress.com/item/Cactus-Micro-compatible-board-plus-WIFI-chip-esp8266-for-atmega32u4/32318391529.html) [hardware]
+[WHID Elite: GSM-enabled Open-Source Multi-Purpose Offensive Device](https://github.com/whid-injector/whid-31337) [hardware]
 
-[AliExpress: Cactus Micro Rev2](https://wiki.aprbrother.com/en/Cactus_Micro_Rev2.html) [hardware]
+[Cactus Micro Rev2](https://wiki.aprbrother.com/en/Cactus_Micro_Rev2.html) [hardware]
 
-https://github.com/whid-injector/WHID
+[ESPloitV2: Wi-Fi Keystroke Injection Tool designed for Cactus WHID](https://github.com/exploitagency/ESPloitV2) [github]
 
-https://github.com/exploitagency/ESPloitV2
-
-### Teensy
-
-[Teensy 3.2](https://www.pjrc.com/store/teensy32.html) [hardware]
-
-[Teensy 2.0](https://www.pjrc.com/store/teensy.html) [hardware]
-
-[USB Serial](https://www.pjrc.com/teensy/td_serial.html),
-[USB Keyboard](https://www.pjrc.com/teensy/td_keyboard.html),
-[USB Mouse](https://www.pjrc.com/teensy/td_mouse.html),
-[USB Joystick](https://www.pjrc.com/teensy/td_joystick.html),
-[USB MIDI](https://www.pjrc.com/teensy/td_midi.html),
-and [USB Flight Sim](https://www.pjrc.com/teensy/td_flightsim.html)
-
-[Getting started with Teensy](https://spuder.wordpress.com/2010/10/21/getting-started-with-teensy-usb-rubber-ducky/) [article]
-
-https://github.com/PaulStoffregen/cores
-
-#### Teensy-based tools
-
-https://github.com/ebursztein/malusb
-
-https://github.com/samyk/usbdriveby
-
-https://github.com/ihowson/Teensy-Raw-HID-in-Python
-
-https://github.com/Screetsec/Pateensy
-
-https://github.com/Screetsec/Brutal
-
-https://github.com/samratashok/Kautilya
-
-https://www.irongeek.com/i.php?page=security/programmable-hid-usb-keystroke-dongle
-
-https://github.com/offensive-security/hid-backdoor-peensy
-
-https://github.com/kleo/teensy-payloads
-
-https://kevincuzner.com/2014/12/12/teensy-3-1-bare-metal-writing-a-usb-driver/
 
 ### Facedancer
 
-[Facedancer21](https://goodfet.sourceforge.net/hardware/facedancer21/) [hardware]
+[Cynthion: Multi-tool for building, analyzing, and hacking USB devices](https://www.crowdsupply.com/great-scott-gadgets/cynthion) [hardware]
 
 [GreatFET One](https://greatscottgadgets.com/greatfet/one/) [hardware]
+
+[Facedancer21](https://goodfet.sourceforge.net/hardware/facedancer21/) [hardware]
 
 [2012: "Emulating USB Devices with Python" by Travis Goodspeed](https://travisgoodspeed.blogspot.de/2012/07/emulating-usb-devices-with-python.html) [article]
 
@@ -145,9 +107,62 @@ https://wiki.yobi.be/index.php/Raspdancer
 
 https://github.com/dominicgs/BeagleDancer
 
+[Raw Gadget–based Facedancer backend](https://github.com/xairy/raw-gadget?tab=readme-ov-file#facedancer-backend) [github]
+
 [2024: "Hydradancer: Faster USB Emulation for Facedancer" by Thiebaud Fuchs](https://blog.quarkslab.com/hydradancer-faster-usb-emulation-for-facedancer.html) [article]
 
-### Raspberry Pi Zero
+
+### Arduino boards
+
+#### Teensy
+
+[Teensy 3.2](https://www.pjrc.com/store/teensy32.html) [hardware]
+
+[Teensy 2.0](https://www.pjrc.com/store/teensy.html) [hardware]
+
+[USB Serial](https://www.pjrc.com/teensy/td_serial.html),
+[USB Keyboard](https://www.pjrc.com/teensy/td_keyboard.html),
+[USB Mouse](https://www.pjrc.com/teensy/td_mouse.html),
+[USB Joystick](https://www.pjrc.com/teensy/td_joystick.html),
+[USB MIDI](https://www.pjrc.com/teensy/td_midi.html),
+and [USB Flight Sim](https://www.pjrc.com/teensy/td_flightsim.html)
+
+[Getting started with Teensy](https://spuder.wordpress.com/2010/10/21/getting-started-with-teensy-usb-rubber-ducky/) [article]
+
+https://github.com/PaulStoffregen/cores
+
+https://github.com/ebursztein/malusb
+
+https://github.com/samyk/usbdriveby
+
+https://github.com/ihowson/Teensy-Raw-HID-in-Python
+
+https://github.com/Screetsec/Pateensy
+
+https://github.com/Screetsec/Brutal
+
+https://github.com/samratashok/Kautilya
+
+https://www.irongeek.com/i.php?page=security/programmable-hid-usb-keystroke-dongle
+
+https://github.com/offensive-security/hid-backdoor-peensy
+
+https://github.com/kleo/teensy-payloads
+
+https://kevincuzner.com/2014/12/12/teensy-3-1-bare-metal-writing-a-usb-driver/
+
+#### Other Arduino
+
+[USB-Rubber-Ducky-Clone-using-Arduino-Leonardo-Beetle: $10 USB Rubber Ducky Clone](https://github.com/basic4/USB-Rubber-Ducky-Clone-using-Arduino-Leonardo-Beetle) [github]
+
+[ardoducky: Rubber Ducky clone for Arduino Pro Micro/Leonardo](https://github.com/neolinux/ardoducky)
+
+[Duckduino-microSD: Arduino interpreter arduino for ducky script from microSD card](https://github.com/Seytonic/Duckduino-microSD) [github]
+
+
+### Linux boards
+
+#### Raspberry Pi Zero
 
 [Raspberry Pi Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/) [hardware]
 
@@ -167,7 +182,8 @@ https://github.com/msjmeyer/rspiducky
 
 https://github.com/bkerler/sahara_emulator
 
-### BeagleBone Black
+
+#### BeagleBone Black
 
 [BeagleBone Black](https://beagleboard.org/black) [hardware]
 
@@ -183,7 +199,8 @@ https://github.com/dominicgs/BeagleDancer
 
 https://github.com/matlo/bb_usb_sniffer (beagleboard xM)
 
-### USB armory
+
+#### USB armory
 
 [USB Armory](https://inversepath.com/usbarmory) [hardware]
 
@@ -193,15 +210,10 @@ https://github.com/matlo/bb_usb_sniffer (beagleboard xM)
 
 [2016: "Snagging creds from locked machines" by Rob Fuller](https://room362.com/post/2016/snagging-creds-from-locked-machines/) [article]
 
-[2017: ARMORY SANDBOX – BUILDING A USB ANALYZER WITH USB ARMORY by Pedro Vilaca](https://www.sentinelone.com/blog/armory-sandbox-building-usb-analyzer-usb-armory/) [article]
+[2017: "How to Build a USB Analyzer with USB Armory? - Creating an Armory Sandbox" by Pedro Vilaca](https://www.sentinelone.com/blog/armory-sandbox-building-usb-analyzer-usb-armory/) [article]
 
-### Android
 
-https://github.com/pelya/android-keyboard-gadget
-
-https://github.com/anbud/DroidDucky
-
-### OpenStick
+#### OpenStick
 
 https://sensepost.com/blog/2023/p4wnp1-lte/
 
@@ -221,11 +233,41 @@ https://github.com/OpenStick/stick-blobs
 
 https://github.com/Mio-sha512/openstick-stuff/releases
 
-### Other
+
+#### Android
+
+https://github.com/pelya/android-keyboard-gadget
+
+https://github.com/anbud/DroidDucky
+
+
+### Malicious cables
 
 [2020: "List of current USB cables with implants for keystroke injection attacks & more" by Marcus Mengs](https://x.com/mame82/status/1221093466463182849) [picture]
 
-[USB Killer](https://usbkill.com/) [hardware]
+[O.MG Cable](https://o.mg.lol/) [hardware]
+[[video review](https://www.youtube.com/watch?v=mPF9f-PLDPc)]
+[[payloads](https://github.com/hak5/omg-payloads)]
+
+[USBNinja: BadUSB embedded into a USB cable](https://www.crowdsupply.com/rfid-research-group/usbninja) [hardware]
+
+[EvilCrow Cable](https://github.com/joelsernamoreno/EvilCrow-Cable) [hardware]
+
+[USBSamurai](https://infosecwriteups.com/usbsamurai-a-remotely-controlled-malicious-usb-hid-injecting-cable-for-less-than-10-ebf4b81e1d0b) [hardware] [[article](https://infosecwriteups.com/usbsamurai-for-dummies-4bd47abf8f87)]
+
+
+### Keyloggers
+
+[AirDrive Keylogger](https://www.keelog.com/hardware-keylogger/) [hardware]
+
+[Maltronics WiFi KeyLogger Internal](https://web.archive.org/web/20211023150651/https://maltronics.com/products/wifi-keylogger-internal) [hardware] [archive]
+
+[KEYVILBOARD](https://www.tindie.com/stores/keyvilboard/) [hardware]
+
+[Key Croc](https://shop.hak5.org/products/key-croc) [hardware]
+
+
+### Sniffers and analyzers
 
 Beagle analyzers:
 [[12](https://www.totalphase.com/products/beagle-usb12/)],
@@ -234,41 +276,30 @@ Beagle analyzers:
 
 [OpenVizsla](http://openvizsla.org/) [hardware]
 
-[Daisho: SuperSpeed USB 3.0 FPGA platform](https://greatscottgadgets.com/daisho/) [hardware]
-
-[Tomu: An ARM board that fits inside your USB connector](https://www.crowdsupply.com/sutajio-kosagi/tomu) [hardware]
-
-[AirDrive Keylogger](https://www.keelog.com/hardware-keylogger/) [hardware]
-
 [LambdaConcept USB2 SNIFFER](https://shop.lambdaconcept.com/home/35-usb2-sniffer.html) [hardware]
-
-[USBNinja: BadUSB embedded into a USB cable](https://www.crowdsupply.com/rfid-research-group/usbninja) [hardware]
 
 [PhyWhisperer-USB](https://www.crowdsupply.com/newae/phywhisperer-usb) [hardware]
 [[github](https://github.com/newaetech/phywhispererusb)]
-
-[Maltronics WiFi KeyLogger Internal](https://web.archive.org/web/20211023150651/https://maltronics.com/products/wifi-keylogger-internal) [hardware] [archive]
-
-[KEYVILBOARD](https://www.tindie.com/stores/keyvilboard/) [hardware]
-
-[EvilCrow Cable](https://github.com/joelsernamoreno/EvilCrow-Cable) [hardware]
-
-[Key Croc](https://shop.hak5.org/products/key-croc) [hardware]
-
-[Malduino](https://maltronics.com/collections/malduinos) [hardware]
-
-[USB Condom](https://int3.cc/products/usbcondoms) [hardware] [gone]
-
-[Cynthion: Multi-tool for building, analyzing, and hacking USB devices](https://www.crowdsupply.com/great-scott-gadgets/cynthion) [hardware]
-
-[O.MG Cable](https://o.mg.lol/) [hardware]
-[[video review](https://www.youtube.com/watch?v=mPF9f-PLDPc)]
-[[payloads](https://github.com/hak5/omg-payloads)]
 
 [Twinkie: USB-PD Sniffer](https://www.chromium.org/chromium-os/developer-library/guides/hardware-schematics/twinkie/) [hardware]
 
 [Twonkie: USB-PD sniffer/injector/sink based on Google's Twinkie](https://github.com/dojoe/Twonkie) [hardware]
 [[shop](https://shop.3mdeb.com/shop/open-source-hardware/twonkie-usb-c-sniffer/)]
+
+
+### Other hardware
+
+[LAN Turtle](https://hak5.org/products/lan-turtle) [hardware]
+[[docs](https://docs.hak5.org/lan-turtle)]
+[[modules](https://github.com/hak5/lanturtle-modules)]
+
+[USB Killer](https://usbkill.com/) [hardware]
+
+[Daisho: SuperSpeed USB 3.0 FPGA platform](https://greatscottgadgets.com/daisho/) [hardware]
+
+[Tomu: An ARM board that fits inside your USB connector](https://www.crowdsupply.com/sutajio-kosagi/tomu) [hardware]
+
+[Malduino](https://maltronics.com/collections/malduinos) [hardware]
 
 [rpk2: Evil Mass Storage](https://rootkit.es/buy_rpk2/) [hardware]
 [[github](https://github.com/therealdreg/evilmass_at90usbkey2)]
@@ -276,8 +307,9 @@ Beagle analyzers:
 
 [C2C caberQU: USB C cable tester](https://www.kickstarter.com/projects/electr/c2c-caberqu-usb-c-cable-tester) [hardware]
 
-[USB 2.0 Hi-Speed Isolator](https://intona.eu/en/products/7054) [hardware]
+[USB Condom](https://int3.cc/products/usbcondoms) [hardware] [gone]
 
+[USB 2.0 Hi-Speed Isolator](https://intona.eu/en/products/7054) [hardware]
 
 
 ## Linux USB stack
@@ -302,6 +334,7 @@ http://www.linux-usb.org/
 
 [2020: "USB General Guide Linux v3.8"](https://processors.wiki.ti.com/index.php/USB_General_Guide_Linux_v3.8) [article]
 
+
 ### usbmon
 
 https://www.kernel.org/doc/html/latest/usb/usbmon.html
@@ -309,6 +342,7 @@ https://www.kernel.org/doc/html/latest/usb/usbmon.html
 https://wiki.ubuntu.com/Kernel/Debugging/USB
 
 [How to install Wireshak on Linux and capture USB traffic?](https://stackoverflow.com/questions/31054437/how-to-install-wireshak-on-linux-and-capture-usb-traffic) [stackoverflow]
+
 
 ### Gadget subsystem
 
@@ -365,6 +399,7 @@ https://github.com/gadgetd/gadgetd/wiki/Motivation
 https://github.com/ueno/libusb-gadget
 
 https://github.com/qlyoung/keyboard-gadget
+
 
 ### Raw Gadget
 
@@ -473,7 +508,7 @@ https://github.com/AristoChen/usb-proxy
 [2019: "Making USB Accessible: Developing Ultra-low-cost, Open USB Tools"](https://greatscottgadgets.com/slides/making-usb-accessible-teardown-2019.pdf) [slides]
 [[video](https://greatscottgadgets.com/2019/06-26-making-usb-accessible-teardown-2019/)]
 
-[2019: "BadUSB in Routers"](https://docs.google.com/viewer?url=https://github.com/tenable/router_badusb/raw/master/slides.pdf) [[github](https://github.com/tenable/router_badusb)]
+[2019: "BadUSB in Routers"](https://docs.google.com/viewer?url=https://github.com/tenable/router_badusb/raw/master/slides.pdf) [slides] [[github](https://github.com/tenable/router_badusb)]
 
 [2019: "eyeDisk. Hacking the unhackable. Again"](https://www.pentestpartners.com/security-blog/eyedisk-hacking-the-unhackable-again/) [article]
 
@@ -615,6 +650,10 @@ https://github.com/AristoChen/usb-proxy
 
 [Wikipedia: Juice jacking](https://en.wikipedia.org/wiki/Juice_jacking) [article]
 
+[2024: "Adding a USB Port to the ThinkPad X1 Nano (the Hard Way)" by Joshua Stein](https://jcs.org/2024/05/29/x1usb) [article]
+
+[2024: Clearing up misinformation about USB-C](https://x.com/_MG_/status/1797461630437241318) [thread]
+
 [2024: "Making USB devices - end to end guide to your first gadget" by Uros Popovic](https://popovicu.com/posts/making-usb-devices/) [article]
 
 [2024: Why USB hubs suck by Michael Ossmann](https://mastodon.social/@mossmann/112514231563904529) [tweet]
@@ -684,9 +723,3 @@ https://github.com/AristoChen/usb-proxy
 [MTPwn: PoC exploit for arbitrary file read/write in locked Samsung Android device via MTP (SVE-2017-10086)](https://github.com/smeso/MTPwn) [github]
 
 [usb_cdc: Single/Multi-channel Full Speed USB interface for FPGA and ASIC designs](https://github.com/ulixxe/usb_cdc) [github]
-
-[USB-Rubber-Ducky-Clone-using-Arduino-Leonardo-Beetle: $10 USB Rubber Ducky Clone](https://github.com/basic4/USB-Rubber-Ducky-Clone-using-Arduino-Leonardo-Beetle) [github]
-
-[ardoducky: Rubber Ducky clone for Arduino Pro Micro/Leonardo](https://github.com/neolinux/ardoducky)
-
-[Duckduino-microSD: Arduino interpreter arduino for ducky script from microSD card](https://github.com/Seytonic/Duckduino-microSD) [github]
