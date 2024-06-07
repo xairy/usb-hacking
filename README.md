@@ -1,9 +1,7 @@
 USB Hacking
 ===========
 
-Materials for my "Introduction to USB hacking" talk.
-
-Also see [xairy/dma-attacks](https://github.com/xairy/dma-attacks).
+Materials for my "Introduction to USB hacking" talk and a [collection of USB hacking–related links](https://github.com/xairy/hardware-village/blob/master/LINKS.md).
 
 Last iteration of the talk:
 
@@ -17,9 +15,9 @@ Older iterations:
 * [Chaos Constructions 2017](https://docs.google.com/presentation/d/1N_o5ghhXPZc48pWqQNkzzsiQUH1aINkzCiZrVWoHqcA/edit?usp=sharing) [slides]
 * [ZeroNights 2016](https://docs.google.com/presentation/d/1w57rf1-LfP2h2cOeRdHqdmyFLfQiy9MpT3nI6HhMwSY/edit?usp=sharing) [slides]
 
-Snippets for demos: [here](https://github.com/xairy/hardware-village/blob/master/usb/DEMOS.md).
+Snippets for demos are [here](https://github.com/xairy/hardware-village/blob/master/usb/DEMOS.md).
 
-USB-related links: [here](https://github.com/xairy/hardware-village/blob/master/usb/LINKS.md).
+Also see [xairy/dma-attacks](https://github.com/xairy/dma-attacks) for my "Introduction to PCIe and DMA attacks" talk.
 
 
 ## Hardware
@@ -34,7 +32,7 @@ Demonstrated during the talk.
 
 [LAN Turtle](https://hakshop.com/products/lan-turtle) (55$)
 
-[ATtiny85 board](https://www.aliexpress.com/item/Free-shipping-1pcs-Digispark-kickstarter-development-board-ATTINY85-module-for-Arduino-usb/32697283942.html) (1.3$)
+[Digispark ATtiny85](https://www.aliexpress.com/item/Free-shipping-1pcs-Digispark-kickstarter-development-board-ATTINY85-module-for-Arduino-usb/32697283942.html) (1.3$)
 
 [CJMCU BadUSB](https://www.aliexpress.com/item/CJMCU-virtual-Keyboard-Badusb-USB-TTF-memory-Keyboard-ATMEGA32U4-module/32817551271.html) (10$)
 
