@@ -12,27 +12,29 @@ Follow [@andreyknvl](https://twitter.com/andreyknvl) on Twitter or [@xairy@infos
 - [Essentials](#essentials)
 - [Workshops](#workshops)
 - [Hardware](#hardware)
-	- [Dedicated BadUSB](#dedicated-badusb)
-		- [Rubbery Ducky](#rubber-ducky)
-		- [Bash Bunny](#bash-bunny)
-		- [Digispark](#digispark)
-		- [CJMCU BadUSB](#cjmcu-badusb)
-		- [Cactus WHID](#cactus-whid)
-		- [Flipper Zero](#flipper-zero)
-		- [Other BadUSB](#other-badusb)
 	- [Facedancer boards](#facedancer-boards)
-	- [Arduino boards](#arduino-boards)
-		- [Teensy](#teensy)
-		- [Other Arduino](#other-arduino)
 	- [Linux boards](#linux-boards)
 		- [Raspberry Pi Zero](#raspberry-pi-zero)
 		- [BeagleBone Black](#beaglebone-black)
 		- [USB Armory](#usb-armory)
 		- [OpenStick](#openstick)
 		- [Android](#android)
+	- [Arduino boards](#arduino-boards)
+		- [Teensy](#teensy)
+		- [Digispark](#digispark)
+		- [CJMCU BadUSB](#cjmcu-badusb)
+		- [WiFi Duck](#wifi-duck)
+	- [Dedicated BadUSB](#dedicated-badusb)
+		- [Rubbery Ducky](#rubber-ducky)
+		- [Bash Bunny](#bash-bunny)
+		- [Cactus WHID](#cactus-whid)
+		- [Flipper Zero](#flipper-zero)
+		- [Other BadUSB](#other-badusb)
 	- [Malicious cables](#malicious-cables)
 	- [Keyloggers](#keyloggers)
 	- [Sniffers and analyzers](#sniffers-and-analyzers)
+		- [USB](#usb)
+		- [USB Power Delivery](#usb-power-delivery)
 	- [Other hardware](#other-hardware)
 - [Linux USB stack](#linux-usb-stack)
 	- [usbmon](#usbmon)
@@ -58,85 +60,6 @@ Follow [@andreyknvl](https://twitter.com/andreyknvl) on Twitter or [@xairy@infos
 
 ## Hardware
 
-### Dedicated BadUSB
-
-#### Rubber Ducky
-
-[Rubber Ducky](https://shop.hak5.org/products/usb-rubber-ducky) [hardware]
-
-https://docs.hak5.org/hak5-usb-rubber-ducky
-
-https://github.com/hak5/usbrubberducky-payloads
-
-
-#### Bash Bunny
-
-[Bash Bunny](https://shop.hak5.org/products/bash-bunny) [hardware]
-
-https://docs.hak5.org/bash-bunny
-
-https://wiki.bashbunny.com/#!index.md
-
-https://github.com/hak5/bashbunny-payloads
-
-https://github.com/golem445/bunny_payloads
-
-
-#### Digispark
-
-[Digispark: Tiny, Arduino-enabled, USB development board](https://www.kickstarter.com/projects/digistump/digispark-the-tiny-arduino-enabled-usb-dev-board) [hardware] [[aliexpress](https://aliexpress.com/w/wholesale-Digispark.html)]
-
-[2021: "Configuring Digispark for Arduino IDE and upgrading bootloader"](https://gist.github.com/Ircama/22707e938e9c8f169d9fe187797a2a2c) [article]
-
-[Duckyspark: Translator from USB Rubber Ducky payloads to Digispark code](https://github.com/toxydose/Duckyspark) [github]
-
-[micronucleus: ATtiny USB bootloader with strong emphasis on bootloader compactness](https://github.com/micronucleus/micronucleus) [github]
-
-
-#### CJMCU BadUSB
-
-[CJMCU BadUSB](https://aliexpress.com/w/wholesale-CJMCU-BadUSB.html) [hardware]
-
-[bad_ducky: Rubber Ducky–compatible clone based on CJMCU BadUSB](https://github.com/mharjac/bad_ducky) [github]
-
-
-#### Cactus WHID
-
-[Cactus WHID: Wi-Fi HID Injector — USB Rubber Ducky / BadUSB On Steroids](https://github.com/whid-injector/WHID) [hardware]
-
-[WHID Elite: GSM-enabled Open-Source Multi-Purpose Offensive Device](https://github.com/whid-injector/whid-31337) [hardware]
-
-[Cactus Micro Rev2](https://wiki.aprbrother.com/en/Cactus_Micro_Rev2.html) [hardware]
-
-[ESPloitV2: Wi-Fi Keystroke Injection Tool designed for Cactus WHID](https://github.com/exploitagency/ESPloitV2) [github]
-
-
-#### Flipper Zero
-
-(Technically, not only for BadUSB.)
-
-[Flipper Zero](https://flipperzero.one/) [hardware]
-
-[Bad USB - Flipper Zero](https://docs.flipper.net/bad-usb) [docs]
-
-[Flipper-Zero-BadUSB: Flipper Zero BadUSB payloads](https://github.com/I-Am-Jakoby/Flipper-Zero-BadUSB) [github]
-
-[badusb: Flipper Zero BadUSB payload library](https://github.com/FalsePhilosopher/badusb) [github]
-
-
-### Other BadUSB
-
-[LAN Turtle](https://hak5.org/products/lan-turtle) [hardware]
-[[docs](https://docs.hak5.org/lan-turtle)]
-[[modules](https://github.com/hak5/lanturtle-modules)]
-
-[Malduino](https://maltronics.com/collections/malduinos) [hardware]
-
-[rpk2: Evil Mass Storage](https://rootkit.es/buy_rpk2/) [hardware]
-[[github](https://github.com/therealdreg/evilmass_at90usbkey2)]
-[[article](https://web.archive.org/web/20211022034816/https://www.driverentry.com/node/104)]
-
-
 ### Facedancer boards
 
 (Hardware and tools compatible with the [modern Facedancer framework](https://github.com/greatscottgadgets/facedancer) and its older versions.)
@@ -151,7 +74,8 @@ https://github.com/golem445/bunny_payloads
 
 [BeagleDancer: Facedancer21 expansion board for BeagleBone](https://github.com/dominicgs/BeagleDancer) [hardware]
 
-[Hydradancer: HydraUSB3-based backend for Facedance](https://blog.quarkslab.com/hydradancer-faster-usb-emulation-for-facedancer.html) [upcoming hardware]
+[Hydradancer: HydraUSB3-based backend for Facedancer](https://github.com/HydraDancer/hydradancer_fw) [hardware] [upcoming]
+[[article](https://blog.quarkslab.com/hydradancer-faster-usb-emulation-for-facedancer.html)]
 
 [2012: "Emulating USB Devices with Python" by Travis Goodspeed](https://travisgoodspeed.blogspot.de/2012/07/emulating-usb-devices-with-python.html) [article]
 
@@ -180,59 +104,6 @@ https://github.com/golem445/bunny_payloads
 [raw_gadget/Facedancer: Prototype of Raw Gadget–based Facedancer backend for Linux boards](https://github.com/xairy/raw-gadget?tab=readme-ov-file#facedancer-backend) [github]
 
 [packetry: Fast, intuitive USB 2.0 protocol analysis application for use with Cynthion](https://github.com/greatscottgadgets/packetry) [github]
-
-
-### Arduino boards
-
-(Hardware and tools for the original Arduino boards.)
-
-#### Teensy
-
-[Teensy 3.2](https://www.pjrc.com/store/teensy32.html) [hardware]
-
-[Teensy 2.0](https://www.pjrc.com/store/teensy.html) [hardware]
-
-Teensy USB docs:
-[USB Serial](https://www.pjrc.com/teensy/td_serial.html),
-[USB Keyboard](https://www.pjrc.com/teensy/td_keyboard.html),
-[USB Mouse](https://www.pjrc.com/teensy/td_mouse.html),
-[USB Joystick](https://www.pjrc.com/teensy/td_joystick.html),
-[USB MIDI](https://www.pjrc.com/teensy/td_midi.html),
-[USB Flight Sim](https://www.pjrc.com/teensy/td_flightsim.html)
-[docs]
-
-[Getting started with Teensy](https://spuder.wordpress.com/2010/10/21/getting-started-with-teensy-usb-rubber-ducky/) [article]
-
-[2010: "Programmable HID USB Keystroke Dongle: Using the Teensy as a pen testing device"](https://www.irongeek.com/i.php?page=security/programmable-hid-usb-keystroke-dongle) [article]
-[[slides](https://www.irongeek.com/downloads/defcon-phid.pdf)]
-
-[cores: Teensy Core Libraries for Arduino](https://github.com/PaulStoffregen/cores) [github]
-
-https://github.com/ebursztein/malusb
-
-https://github.com/samyk/usbdriveby
-
-https://github.com/ihowson/Teensy-Raw-HID-in-Python
-
-https://github.com/Screetsec/Pateensy
-
-https://github.com/Screetsec/Brutal
-
-https://github.com/samratashok/Kautilya
-
-https://github.com/offensive-security/hid-backdoor-peensy
-
-https://github.com/kleo/teensy-payloads
-
-#### Other Arduino
-
-[USB-Rubber-Ducky-Clone-using-Arduino-Leonardo-Beetle: $10 USB Rubber Ducky Clone](https://github.com/basic4/USB-Rubber-Ducky-Clone-using-Arduino-Leonardo-Beetle) [github]
-
-[ardoducky: Rubber Ducky clone for Arduino Pro Micro/Leonardo](https://github.com/neolinux/ardoducky)
-
-[Duckduino-microSD: Arduino interpreter arduino for DuckyScript from microSD card](https://github.com/Seytonic/Duckduino-microSD) [github]
-
-[BadUSB DIY](https://www.youtube.com/playlist?list=PL2YepVFF1azFjaLd5PYCYg2lKeB6t1xcj) [playlist]
 
 
 ### Linux boards
@@ -329,6 +200,179 @@ This section focuses on the most used and historically-relevant of them.)
 [[article](https://web.archive.org/web/20201108135130/http://zx.rs/6/DroidDucky---Can-an-Android-quack-like-a-duck/)]
 
 
+### Arduino boards
+
+(Many Arduino boards and their clones can be used for USB device emulation.
+This section provides only a few notable links; there is too many to list all.)
+
+[Arduino Classic boards](https://www.arduino.cc/en/hardware#classic-family) [hardware]
+
+[BadUSB DIY](https://www.youtube.com/playlist?list=PL2YepVFF1azFjaLd5PYCYg2lKeB6t1xcj) [playlist]
+
+
+#### Teensy
+
+[Teensy 3.2](https://www.pjrc.com/store/teensy32.html) [hardware]
+
+[Teensy 2.0](https://www.pjrc.com/store/teensy.html) [hardware]
+
+Teensy USB docs:
+[USB Serial](https://www.pjrc.com/teensy/td_serial.html),
+[USB Keyboard](https://www.pjrc.com/teensy/td_keyboard.html),
+[USB Mouse](https://www.pjrc.com/teensy/td_mouse.html),
+[USB Joystick](https://www.pjrc.com/teensy/td_joystick.html),
+[USB MIDI](https://www.pjrc.com/teensy/td_midi.html),
+[USB Flight Sim](https://www.pjrc.com/teensy/td_flightsim.html)
+[docs]
+
+[Getting started with Teensy](https://spuder.wordpress.com/2010/10/21/getting-started-with-teensy-usb-rubber-ducky/) [article]
+
+[2010: "Programmable HID USB Keystroke Dongle: Using the Teensy as a pen testing device"](https://www.irongeek.com/i.php?page=security/programmable-hid-usb-keystroke-dongle) [article]
+[[slides](https://www.irongeek.com/downloads/defcon-phid.pdf)]
+
+[cores: Teensy Core Libraries for Arduino](https://github.com/PaulStoffregen/cores) [github]
+
+[Pateensy: Rubber Ducky–like payload for Teensy](https://github.com/Screetsec/Pateensy) [github]
+
+[Brutal: Various payloads for Teensy](https://github.com/Screetsec/Brutal) [github]
+
+[USBdriveby: DNS spoofer payload for Teensy](https://github.com/samyk/usbdriveby) [github]
+
+[Kautilya: HID payloads for Teensy](https://github.com/samratashok/Kautilya) [github]
+
+
+#### Digispark
+
+[Digispark: Tiny, Arduino-enabled, USB development board](https://www.kickstarter.com/projects/digistump/digispark-the-tiny-arduino-enabled-usb-dev-board) [hardware]
+[[aliexpress](https://aliexpress.com/w/wholesale-Digispark.html)]
+
+[Configuring Digispark for Arduino IDE and upgrading bootloader](https://gist.github.com/Ircama/22707e938e9c8f169d9fe187797a2a2c) [article]
+
+[Attiny85: Rubber Ducky payloads for Digispark ATtiny85](https://github.com/MTK911/Attiny85) [github]
+
+[Duckyspark: Translator from USB Rubber Ducky payloads to Digispark code](https://github.com/toxydose/Duckyspark) [github]
+
+[micronucleus: ATtiny USB bootloader with strong emphasis on bootloader compactness](https://github.com/micronucleus/micronucleus) [github]
+
+
+#### CJMCU BadUSB
+
+[CJMCU BadUSB](https://aliexpress.com/w/wholesale-CJMCU-BadUSB.html) [hardware]
+
+[bad_ducky: Instructions for CJMCU BadUSB](https://github.com/mharjac/bad_ducky) [github]
+[[wiki](https://github.com/mharjac/bad_ducky/wiki)]
+
+[CJMCU_ATMEGA32U4_BADUSB: Guide on using DuckyScript with CJMCU BadUSB](https://github.com/asciiterminal/CJMCU_ATMEGA32U4_BADUSB) [github]
+
+
+#### WiFi Duck
+
+[Malduino](https://maltronics.com/collections/malduinos) [hardware]
+
+[DSTIKE WiFi Duck](https://dstike.com/collections/frontpage/products/dstike-wifi-duck) [hardware]
+
+[WiFiDuck: Wireless keystroke injection attack platform](https://github.com/SpacehuhnTech/WiFiDuck) [github]
+
+
+### Sniffers and analyzers
+
+(See also the [Facedancer Boards](#facedancer-boards) and [Linux Boards](#linux-boards) sections.)
+
+
+#### USB
+
+Beagle:
+[USB 12](https://www.totalphase.com/products/beagle-usb12/),
+[USB 480](https://www.totalphase.com/products/beagle-usb480/),
+[USB 480 Ultimate](https://www.totalphase.com/products/beagle-usb480-power-ultimate/),
+[USB 5000 v2 Ultimate](https://www.totalphase.com/products/beagle-usb5000-v2-ultimate/)
+[hardware]
+
+[OpenVizsla](http://openvizsla.org/) [hardware]
+[[github](https://github.com/openvizsla/ov_ftdi)]
+[[shop](https://shop.sysmocom.de/OpenVizsla-v3.x-USB-Protocol-Analyzer-PCBA/openvizsla-pcba-v3.4)]
+
+[LambdaConcept USB2 SNIFFER](https://shop.lambdaconcept.com/home/35-usb2-sniffer.html) [hardware]
+
+[PhyWhisperer-USB](https://www.crowdsupply.com/newae/phywhisperer-usb) [hardware]
+[[github](https://github.com/newaetech/phywhispererusb)]
+
+[Low-cost USB Sniffer](https://github.com/ataradov/usb-sniffer) [hardware]
+
+
+#### USB Power Delivery
+
+[Twinkie: USB-PD Sniffer](https://www.chromium.org/chromium-os/developer-library/guides/hardware-schematics/twinkie/) [hardware]
+
+[Twonkie: USB-PD sniffer/injector/sink based on Twinkie](https://github.com/dojoe/Twonkie) [hardware]
+[[shop](https://shop.3mdeb.com/shop/open-source-hardware/twonkie-usb-c-sniffer/)]
+
+[twebkie: USB Power Delivery analyzer directly from web](https://chromium.googlesource.com/chromiumos/twebkie/) [github]
+
+[usb.org: USB Power Delivery Compliance](https://www.usb.org/usbc#:~:text=download%20here.-,USB%20Power%20Delivery%20Compliance,-The%20USB%20PD) [hardware]
+
+
+### Dedicated BadUSB
+
+(Hardware developed specifically for BadUSB attacks and related tools.)
+
+#### Rubber Ducky
+
+[Rubber Ducky](https://shop.hak5.org/products/usb-rubber-ducky) [hardware]
+
+https://docs.hak5.org/hak5-usb-rubber-ducky
+
+https://github.com/hak5/usbrubberducky-payloads
+
+
+#### Bash Bunny
+
+[Bash Bunny](https://shop.hak5.org/products/bash-bunny) [hardware]
+
+https://docs.hak5.org/bash-bunny
+
+https://wiki.bashbunny.com/#!index.md
+
+https://github.com/hak5/bashbunny-payloads
+
+https://github.com/golem445/bunny_payloads
+
+
+#### Cactus WHID
+
+[Cactus WHID: Wi-Fi HID Injector — USB Rubber Ducky / BadUSB On Steroids](https://github.com/whid-injector/WHID) [hardware]
+
+[WHID Elite: GSM-enabled Open-Source Multi-Purpose Offensive Device](https://github.com/whid-injector/whid-31337) [hardware]
+
+[Cactus Micro Rev2](https://wiki.aprbrother.com/en/Cactus_Micro_Rev2.html) [hardware]
+
+[ESPloitV2: Wi-Fi Keystroke Injection Tool designed for Cactus WHID](https://github.com/exploitagency/ESPloitV2) [github]
+
+
+#### Flipper Zero
+
+(Technically, not only for BadUSB.)
+
+[Flipper Zero](https://flipperzero.one/) [hardware]
+
+[Bad USB - Flipper Zero](https://docs.flipper.net/bad-usb) [docs]
+
+[Flipper-Zero-BadUSB: Flipper Zero BadUSB payloads](https://github.com/I-Am-Jakoby/Flipper-Zero-BadUSB) [github]
+
+[badusb: Flipper Zero BadUSB payload library](https://github.com/FalsePhilosopher/badusb) [github]
+
+
+### Other BadUSB
+
+[LAN Turtle](https://hak5.org/products/lan-turtle) [hardware]
+[[docs](https://docs.hak5.org/lan-turtle)]
+[[modules](https://github.com/hak5/lanturtle-modules)]
+
+[rpk2: Evil Mass Storage](https://rootkit.es/buy_rpk2/) [hardware]
+[[github](https://github.com/therealdreg/evilmass_at90usbkey2)]
+[[article](https://web.archive.org/web/20211022034816/https://www.driverentry.com/node/104)]
+
+
 ### Malicious cables
 
 [2020: "List of current USB cables with implants for keystroke injection attacks & more" by Marcus Mengs](https://x.com/mame82/status/1221093466463182849) [picture]
@@ -346,40 +390,32 @@ This section focuses on the most used and historically-relevant of them.)
 [USBSamurai](https://infosecwriteups.com/usbsamurai-a-remotely-controlled-malicious-usb-hid-injecting-cable-for-less-than-10-ebf4b81e1d0b) [hardware]
 [[article](https://infosecwriteups.com/usbsamurai-for-dummies-4bd47abf8f87)]
 
+[AirDrive Forensic Keylogger Cable & Module](https://www.keelog.com/forensic-keylogger/) [hardware]
+
+[KeyGrabber Forensic Keylogger Cable & Module](https://www.keelog.com/keygrabber-forensic/) [hardware]
+
 
 ### Keyloggers
 
-[AirDrive Keylogger](https://www.keelog.com/hardware-keylogger/) [hardware]
+AirDrive:
+[Keylogger](https://www.keelog.com/hardware-keylogger/),
+[Forensic Keylogger](https://www.keelog.com/airdrive-keylogger/)
+[hardware]
 
-[Maltronics WiFi KeyLogger Internal](https://web.archive.org/web/20211023150651/https://maltronics.com/products/wifi-keylogger-internal) [hardware] [archive]
+KeyGrabber:
+[Pico](https://www.keelog.com/keygrabber-pico/),
+[USB](https://www.keelog.com/usb-keylogger/),
+[TimeKeeper](https://www.keelog.com/timestamp-keylogger/),
+[Forensic Keylogger](https://www.keelog.com/keygrabber-keylogger/)
+[hardware]
 
-[KEYVILBOARDs](https://www.tindie.com/stores/keyvilboard/) [hardware]
+[Forensic Keylogger Keyboard](https://www.keelog.com/keylogger-keyboard/) [hardware]
 
 [Key Croc](https://shop.hak5.org/products/key-croc) [hardware]
 
+[KEYVILBOARDs](https://www.tindie.com/stores/keyvilboard/) [hardware]
 
-### Sniffers and analyzers
-
-(See also the [Facedancer Boards](#facedancer-boards) and [Linux Boards](#linux-boards) sections.)
-
-Beagle analyzers:
-[[12](https://www.totalphase.com/products/beagle-usb12/)],
-[[480](https://www.totalphase.com/products/beagle-usb480/)],
-[[5000](https://www.totalphase.com/products/beagle-usb5000-v2-ultimate/)]
-
-[OpenVizsla](http://openvizsla.org/) [hardware]
-[[github](https://github.com/openvizsla/ov_ftdi)]
-[[shop](https://shop.sysmocom.de/OpenVizsla-v3.x-USB-Protocol-Analyzer-PCBA/openvizsla-pcba-v3.4)]
-
-[LambdaConcept USB2 SNIFFER](https://shop.lambdaconcept.com/home/35-usb2-sniffer.html) [hardware]
-
-[PhyWhisperer-USB](https://www.crowdsupply.com/newae/phywhisperer-usb) [hardware]
-[[github](https://github.com/newaetech/phywhispererusb)]
-
-[Twinkie: USB-PD Sniffer](https://www.chromium.org/chromium-os/developer-library/guides/hardware-schematics/twinkie/) [hardware]
-
-[Twonkie: USB-PD sniffer/injector/sink based on Twinkie](https://github.com/dojoe/Twonkie) [hardware]
-[[shop](https://shop.3mdeb.com/shop/open-source-hardware/twonkie-usb-c-sniffer/)]
+[Maltronics WiFi KeyLogger Internal](https://web.archive.org/web/20211023150651/https://maltronics.com/products/wifi-keylogger-internal) [hardware] [discontinued]
 
 
 ### Other hardware
@@ -536,8 +572,6 @@ kernel.org documentation:
 
 [usbwall: Control LDAP users access to USB devices](https://github.com/Turanic/usbwall) [github]
 
-[twebkie: USB Power Delivery analyzer directly from web](https://chromium.googlesource.com/chromiumos/twebkie/) [code]
-
 [usbrply: Replay USB messages from Wireshark (.cap) files](https://github.com/JohnDMcMaster/usbrply) [github]
 
 [ukip: USB Keystroke Injection Protection](https://github.com/google/ukip) [github]
@@ -545,8 +579,6 @@ kernel.org documentation:
 [UDEFuzz: Windows USB drivers fuzzing using UDE technology](https://github.com/0x123456789/UDEFuzz) [github]
 
 [usbsas: Tool and framework for securely reading untrusted USB mass storage devices](https://github.com/cea-sec/usbsas) [github]
-
-[usb-sniffer: Low-cost USB Sniffer (LS/FS/HS) with Wireshark interface](https://github.com/ataradov/usb-sniffer) [github]
 
 [virtual-fido: Virtual FIDO2 USB Device](https://github.com/bulwarkid/virtual-fido) [github]
 
