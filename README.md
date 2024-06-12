@@ -1,21 +1,9 @@
 USB Hacking
 ===========
 
-Materials for my "Introduction to USB hacking" talk and a [collection of USB hacking–related links](https://github.com/xairy/hardware-village/blob/master/LINKS.md).
+Materials for my "Introduction to USB hacking" talk ([slides](https://docs.google.com/presentation/d/1yeQigRsWQLko3TXNg8zsKT_45aHrcZgYhsKJvFc2yQk/edit?usp=sharing), [video](https://www.youtube.com/watch?v=fZCSmwJQedc)) and a [collection of USB hacking–related links](LINKS.md).
 
-Last iteration of the talk:
-
-* [Online 2020](https://docs.google.com/presentation/d/1yeQigRsWQLko3TXNg8zsKT_45aHrcZgYhsKJvFc2yQk/edit?usp=sharing) [slides] [[video](https://www.youtube.com/watch?v=0bMxAdq1adc)]
-
-Older iterations:
-
-* [PHDays 2019](https://docs.google.com/presentation/d/1BP1wNSa0MvMdlZuRURw9VsWC198IgrtDFujgI2-2Fto/edit?usp=sharing) [slides] [[video](https://www.youtube.com/watch?v=lLQ55aW7uyw)]
-* [Chaos Constructions 2018](https://docs.google.com/presentation/d/1C0Mfh9kcHQvqaLd6hbx6ilM_blYwg05YVW5rRS6Z8yQ/edit?usp=sharing) [slides]
-* [PHDays 2018](https://docs.google.com/presentation/d/1S1yNeehSXOvtC_QmtqETSF3frlMLgka6v3XQVupJXTQ/edit?usp=sharing) [slides]
-* [Chaos Constructions 2017](https://docs.google.com/presentation/d/1N_o5ghhXPZc48pWqQNkzzsiQUH1aINkzCiZrVWoHqcA/edit?usp=sharing) [slides]
-* [ZeroNights 2016](https://docs.google.com/presentation/d/1w57rf1-LfP2h2cOeRdHqdmyFLfQiy9MpT3nI6HhMwSY/edit?usp=sharing) [slides]
-
-Snippets for demos are [here](https://github.com/xairy/hardware-village/blob/master/usb/DEMOS.md).
+Snippets for demos shown during the talk are [here](DEMOS.md).
 
 Also see [xairy/dma-attacks](https://github.com/xairy/dma-attacks) for my "Introduction to PCIe and DMA attacks" talk.
 
@@ -66,8 +54,6 @@ Demonstrated during the talk.
 
 
 ## Agenda
-
-This is the full agenda, each iteration of the talk may cover different parts.
 
 ### Part 1: USB 101
 
