@@ -8,7 +8,7 @@ For an overview of the state of things in the USB hacking field as of a few year
 - My 5-hour ["Introduction to USB hacking"](/talk) talk (the talk is in Russian, the slides are in English);
 - The awesome ["USB Reverse Engineering: Down the rabbit hole"](https://devalias.net/devalias/2018/05/13/usb-reverse-engineering-down-the-rabbit-hole/) article and link collection by Glenn Grant.
 
-Follow [@andreyknvl](https://twitter.com/andreyknvl) on Twitter or [@xairy@infosec.exchange](https://infosec.exchange/@xairy) on Mastodon to be notified of updates.
+Follow [@andreyknvl](https://x.com/andreyknvl) on X, [@xairy@infosec.exchange](https://infosec.exchange/@xairy) on Mastodon, or [@andreyknvl](https://bsky.app/profile/andreyknvl.bsky.social) on Bluesky to be notified of updates.
 
 
 ## Contents
@@ -17,7 +17,7 @@ Follow [@andreyknvl](https://twitter.com/andreyknvl) on Twitter or [@xairy@infos
 - [Workshops](#workshops)
 - [Hardware](#hardware)
 	- [Malicious hardware](#malicious-hardware)
-		- [Rubbery Ducky](#rubber-ducky)
+		- [Rubber Ducky](#rubber-ducky)
 		- [Bash Bunny](#bash-bunny)
 		- [Cactus WHID](#cactus-whid)
 		- [Flipper Zero](#flipper-zero)
@@ -28,6 +28,7 @@ Follow [@andreyknvl](https://twitter.com/andreyknvl) on Twitter or [@xairy@infos
 		- [USB](#usb)
 		- [USB Power Delivery](#usb-power-delivery)
 	- [Facedancer boards](#facedancer-boards)
+		- [Cynthion](#cynthion)
 		- [Modern](#modern)
 		- [Legacy](#legacy)
 	- [Linux boards](#linux-boards)
@@ -51,6 +52,7 @@ Follow [@andreyknvl](https://twitter.com/andreyknvl) on Twitter or [@xairy@infos
 		- [Testing](#testing)
 - [Software](#software)
 	- [Libraries](#libraries)
+	- [USB/IP](#usbip)
 	- [Capturing software](#capturing-software)
 	- [Analyzers](#analyzers)
 	- [Fuzzers](#fuzzers)
@@ -59,7 +61,7 @@ Follow [@andreyknvl](https://twitter.com/andreyknvl) on Twitter or [@xairy@infos
 - [Research](#research)
 	- [Attacking](#attacking)
 	- [Fuzzing](#fuzzing)
-	- [Defensive](#defensive)
+	- [Defensive](#defensive-1)
 	- [Reverse engineering](#reverse-engineering)
 	- [Creating tools](#creating-tools)
 	- [Other research](#other-research)
@@ -72,7 +74,7 @@ Follow [@andreyknvl](https://twitter.com/andreyknvl) on Twitter or [@xairy@infos
 
 ["USB in a NutShell" by Craig Peacock](https://www.beyondlogic.org/usbnutshell/usb1.shtml) [articles]
 
-[USB: Document Library](https://www.usb.org/documents)
+[USB: Document Library](https://www.usb.org/documents) [docs]
 
 
 ## Workshops
@@ -241,7 +243,7 @@ Beagle:
 
 [Aliexpress USB Sniffer](https://aliexpress.com/item/1005006360863665.html) [hardware]
 
-[usb-sniffer-lite: USB sniffer based on Raspberry Pi RP2040] [github]
+[usb-sniffer-lite: USB sniffer based on Raspberry Pi RP2040](https://github.com/ataradov/usb-sniffer-lite) [github]
 
 
 #### USB Power Delivery
@@ -282,7 +284,7 @@ Hardware and tools compatible with the modern Facedancer framework and its older
 
 [2025: "Building and Hacking USB with FPGAs" by Michael Ossmann](https://www.youtube.com/watch?v=eedIlLA37XU) [video]
 
-[2025: "Emulating a PS5 Controller with Cynthion and Facedancer"](https://www.youtube.com/watch?v=MMZAyQuZHvs)] [video]
+[2025: "Emulating a PS5 Controller with Cynthion and Facedancer"](https://www.youtube.com/watch?v=MMZAyQuZHvs) [video]
 
 [2024: "Sniffing PS5 Controller Packets with Cynthion"](https://www.youtube.com/watch?v=DHjmOFIk2nk) [video]
 
@@ -321,9 +323,9 @@ Hardware and tools compatible with the modern Facedancer framework and its older
 
 [umap2: Version 2 of umap](https://github.com/nccgroup/umap2) [github]
 
-[nu-map: Fork of umap2 based on modern Facedancer framework](https://github.com/usb-tools/nu-map)[github]
+[nu-map: Fork of umap2 based on modern Facedancer framework](https://github.com/usb-tools/nu-map) [github]
 
-[badusb2-mitm-poc: USB MitM with two Facedacer21 boards](https://github.com/withdk/badusb2-mitm-poc) [github]
+[badusb2-mitm-poc: USB MitM with two Facedancer21 boards](https://github.com/withdk/badusb2-mitm-poc) [github]
 
 
 ### Linux boards
@@ -342,7 +344,7 @@ The cheapest and most compact of the Raspberry Pi boards.
 
 [Raspberry Pi Zero OTG Mode](https://gist.github.com/gbaman/50b6cca61dd1c3f88f41) [article]
 
-[P4wnP1: Highly customizable USB attack platform based on Rasbperry Pi Zero](https://github.com/mame82/P4wnP1) [github]
+[P4wnP1: Highly customizable USB attack platform based on Raspberry Pi Zero](https://github.com/mame82/P4wnP1) [github]
 [[writeup](https://github.com/mame82/P4wnP1/blob/master/writeup_lockpicker.md)]
 [[Kali image](https://twitter.com/_binkybear/status/919324503020150784)]
 
@@ -350,7 +352,7 @@ The cheapest and most compact of the Raspberry Pi boards.
 
 [RaspberryPiZero_HID_MultiTool: Scripts for turning Raspberry Pi Zero into various USB devices](https://github.com/darrylburke/RaspberryPiZero_HID_MultiTool/) [github]
 
-[rspiducky: Turns Rasberry Pi Zero into Rubber Ducky](https://github.com/msjmeyer/rspiducky) [github]
+[rspiducky: Turns Raspberry Pi Zero into Rubber Ducky](https://github.com/msjmeyer/rspiducky) [github]
 
 [sahara_emulator: Emulates Qualcomm Sahara using Raspberry Pi Zero](https://github.com/bkerler/sahara_emulator) [github]
 
@@ -365,7 +367,7 @@ These were the first Linux boards that were used for implementing USB-related to
 
 [BeagleBoard-xM](https://www.beagleboard.org/boards/beagleboard-xm) [hardware]
 
-[bb_usb_sniffer: USB sniffer for BeagleBoard-xM based on custom gadget driver](https://github.com/matlo/bb_usb_sniffer)
+[bb_usb_sniffer: USB sniffer for BeagleBoard-xM based on custom gadget driver](https://github.com/matlo/bb_usb_sniffer) [github]
 
 [usbq: Python framework for monitoring and modifying USB communications](https://github.com/ivision-research/usbq) [github]
 [[usbq_core](https://github.com/airbus-seclab/usbq_core)]
@@ -412,13 +414,13 @@ These were the first Linux boards that were used for implementing USB-related to
 [[wiki](https://www.kancloud.cn/handsomehacker/openstick/2636505)]
 [[blobs](https://github.com/OpenStick/stick-blobs)]
 
-[2022: "Hackable $20 Modem Combines LTE And Pi Zero W2 Powe" by Arya Voronova](https://hackaday.com/2022/08/03/hackable-20-modem-combines-lte-and-pi-zero-w2-power/) [article]
+[2022: "Hackable $20 Modem Combines LTE And Pi Zero W2 Power" by Arya Voronova](https://hackaday.com/2022/08/03/hackable-20-modem-combines-lte-and-pi-zero-w2-power/) [article]
 
 [2022: "OpenStick: Some Preliminary Investigations"](https://www.zianet.com/jgray/openstick/) [article]
 
-[2023: "P4wnP1-LTE" by Rogan Dawes](https://sensepost.com/blog/2023/p4wnp1-lte/) [article]
-
 [2022: "OpenStick" by Zoltan Mizsei](https://extrowerk.com/2022-07-31/OpenStick.html) [article]
+
+[2023: "P4wnP1-LTE" by Rogan Dawes](https://sensepost.com/blog/2023/p4wnp1-lte/) [article]
 
 [UF896 - Qualcomm MSM8916 LTE router ~384MiB RAM/2.4GiB flash, Android: OpenWrt?](https://forum.openwrt.org/t/uf896-qualcomm-msm8916-lte-router-384mib-ram-2-4gib-flash-android-openwrt/131712) [forum]
 
@@ -440,7 +442,7 @@ These were the first Linux boards that were used for implementing USB-related to
 ### Arduino boards
 
 Many Arduino boards and their clones can be used for USB device emulation.
-This section provides only a few notable links; there is too many to list all.
+This section provides only a few notable links; there are too many to list them all.
 
 [Arduino Classic boards](https://www.arduino.cc/en/hardware#classic-family) [hardware]
 
@@ -641,7 +643,7 @@ Assorted software that doesn't specifically belong to the sections above.
 
 [pyusb: Python library for accessing USB devices](https://github.com/pyusb/pyusb) [github]
 
-[python-usb-protocol: USB Protocol Library for Python](https://github.com/greatscottgadgets/python-usb-protocol)
+[python-usb-protocol: USB Protocol Library for Python](https://github.com/greatscottgadgets/python-usb-protocol) [github]
 
 [libusbd: Cross-OS library for implementing USB device-mode interfaces](https://github.com/shinyquagsire23/libusbd) [github]
 
@@ -654,7 +656,7 @@ Assorted software that doesn't specifically belong to the sections above.
 
 [usbip-toolkit: Python USB/IP server library focusing on HDL cosimulation](https://github.com/jevinskie/usbip-toolkit) [github]
 
-[USB-Emulation: Emuating USB Devices in Python via USB/IP](https://github.com/smulikHakipod/USB-Emulation) [github]
+[USB-Emulation: Emulating USB Devices in Python via USB/IP](https://github.com/smulikHakipod/USB-Emulation) [github]
 [[article](https://breaking-the-system.blogspot.com/2014/08/emulating-usb-devices-in-python-with-no.html)]
 
 
@@ -683,7 +685,7 @@ Assorted software that doesn't specifically belong to the sections above.
 
 Also see nu-map, umap2, and umap in the [Facedancer boards](#facedancer-boards) section.
 
-[syzkaller/usb: Coverge-guided Raw Gadget–based Linux USB host fuzzer](https://github.com/google/syzkaller/blob/master/docs/linux/external_fuzzing_usb.md) [github]
+[syzkaller/usb: Coverage-guided Raw Gadget–based Linux USB host fuzzer](https://github.com/google/syzkaller/blob/master/docs/linux/external_fuzzing_usb.md) [github]
 [[slides](https://docs.google.com/presentation/d/1z-giB9kom17Lk21YEjmceiNUVYeI6yIaG5_gZ3vKC-M/edit)]
 [[video](https://www.youtube.com/watch?v=1MD5JV6LfxA)]
 
@@ -734,7 +736,7 @@ Also see nu-map, umap2, and umap in the [Facedancer boards](#facedancer-boards) 
 
 [webcam-tools: Update of the UVC webcam tools](https://github.com/cshorler/webcam-tools) [github]
 
-[USBDescriptorKitchen: USB Descriptor creation and maintainance tool](https://github.com/zonque/USBDescriptorKitchen) [github]
+[USBDescriptorKitchen: USB Descriptor creation and maintenance tool](https://github.com/zonque/USBDescriptorKitchen) [github]
 
 [usbrply: Replay USB messages from Wireshark (.cap) files](https://github.com/JohnDMcMaster/usbrply) [github]
 
@@ -782,7 +784,7 @@ Articles, talks, and research papers.
 [2024: "Exploitation of USB over SPI bug" by Sergei Volokitin](https://drive.google.com/file/d/1AufkaaXa4ztvnfqeSV4VY8QP8zkjDy25/view) [slides]
 [[video](https://www.youtube.com/watch?v=iPMN9bQYmIU)]
 
-[2023: "A Touch of Pwn: Attacking Windows Hello Fingerprint Authentication" by Jesse D’Aguanno and Timo Teräs](https://blackwinghq.com/blog/posts/a-touch-of-pwn-part-i/) [article]
+[2023: "A Touch of Pwn: Attacking Windows Hello Fingerprint Authentication" by Jesse D'Aguanno and Timo Teras](https://blackwinghq.com/blog/posts/a-touch-of-pwn-part-i/) [article]
 [[slides](https://blackwinghq.com/assets/labs/presentations/BlueHat-2023-A-Touch-of-Pwn.pdf)]
 [[video](https://www.youtube.com/watch?v=gjvu-l6vKFE)]
 
@@ -791,7 +793,7 @@ Articles, talks, and research papers.
 
 [2023: "Intel BIOS Advisory – Memory Corruption in HID Drivers"](https://research.nccgroup.com/2023/08/08/intel-bios-advisory-memory-corruption-in-hid-drivers/) [article]
 
-[2023: "REUnziP: Re-Exploiting Huawei Recovery With FaultyUSB" by Lorant Szabo](https://labs.taszk.io/articles/post/reunzip/) [articl
+[2023: "REUnziP: Re-Exploiting Huawei Recovery With FaultyUSB" by Lorant Szabo](https://labs.taszk.io/articles/post/reunzip/) [article]
 
 [2023: "The Impostor Among US(B): Off-Path Injection Attacks on USB Communications" by Robert Dumitru et al.](https://www.usenix.org/conference/usenixsecurity23/presentation/dumitru) [paper]
 [[github](https://github.com/0xADE1A1DE/USB-Injection)]
@@ -862,16 +864,16 @@ Articles, talks, and research papers.
 
 [2015: "USB Armory as an Offensive Attack Platform"](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/wiki/inversepath/usbarmory/contrib/USB%20Armory%20as%20an%20Offensive%20Attack%20Platform%20Jeroen_van_Kessel-and-Nick_Triantafyllidis.pdf) [paper]
 
-[2015: "USB Attack to Decrypt Wi Fi Communications" by Jeremy Dorrough](https://media.defcon.org/DEF%20CON%2023/DEF%20CON%2023%20presentations/DEFCON-23-Jeremy-Dorrough-USB-Attack-to-Decrypt-Wi-Fi-Communications.pdf)
+[2015: "USB Attack to Decrypt Wi Fi Communications" by Jeremy Dorrough](https://media.defcon.org/DEF%20CON%2023/DEF%20CON%2023%20presentations/DEFCON-23-Jeremy-Dorrough-USB-Attack-to-Decrypt-Wi-Fi-Communications.pdf) [slides]
 [[video](https://www.youtube.com/watch?v=UWOxzfRUwis)]
 
 [2015: "USB - An Attack Surface of Emerging Importance"](https://tubdok.tub.tuhh.de/bitstream/11420/1286/1/USB%20-%20An%20Attack%20Surface%20of%20Emerging%20Importance.pdf) [thesis]
 
-[2014: "BadUSB - On Accessories that Turn Evil" by Karsten Nohl and Jakob Lell](https://assets-global.website-files.com/6098eeb4f4b0288367fbb639/62bc77a987dd057cc3e28599_SRLabs-BadUSB-Pacsec-v2.pdf)
+[2014: "BadUSB - On Accessories that Turn Evil" by Karsten Nohl and Jakob Lell](https://assets-global.website-files.com/6098eeb4f4b0288367fbb639/62bc77a987dd057cc3e28599_SRLabs-BadUSB-Pacsec-v2.pdf) [slides]
 [[video](https://www.youtube.com/watch?v=nuruzFqMgIw)]
 [[wiki](https://opensource.srlabs.de/projects/badusb/wiki)]
 
-[2014: "USB Attacks Need Physical Access Right? Not Any More..." by Andy Davis](https://www.blackhat.com/docs/asia-14/materials/Davis/Asia-14-Davis-USB-Attacks-Need-Physical-Access-Right-Not-Any-More.pdf)
+[2014: "USB Attacks Need Physical Access Right? Not Any More..." by Andy Davis](https://www.blackhat.com/docs/asia-14/materials/Davis/Asia-14-Davis-USB-Attacks-Need-Physical-Access-Right-Not-Any-More.pdf) [slides]
 [[video](https://www.youtube.com/watch?v=90MIjgh5ESU)]
 
 [2014: "USB for All!!1" by Jesse Michael and Mickey Shkatov](https://www.defcon.org/images/defcon-22/dc-22-presentations/Michael-Shkatov/DEFCON-22-Jesse-Michael-Mickey-Shkatov-USB-for-All!!-UPDATED.pdf) [slides]
@@ -924,10 +926,10 @@ Articles, talks, and research papers.
 
 [2017: "POTUS: Probing Off-The-Shelf USB Drivers with Symbolic Fault Injection" by James Patrick-Evans et al.](https://www.usenix.org/conference/woot17/workshop-program/presentation/patrick-evans) [paper]
 
-[2015: "Introduction to USB and Fuzzing" by Matt DuHarte](https://github.com/CryptoMonkey/Conference-Presentations/blob/master/Defcon%2023%20(2015)%20-%20Introduction%20to%20USB%20and%20Fuzzing/Matt%20DuHarte%20-%20HHV%20-%20Introduction%20to%20USB%20and%20Fuzzing.pdf)
+[2015: "Introduction to USB and Fuzzing" by Matt DuHarte](https://github.com/CryptoMonkey/Conference-Presentations/blob/master/Defcon%2023%20(2015)%20-%20Introduction%20to%20USB%20and%20Fuzzing/Matt%20DuHarte%20-%20HHV%20-%20Introduction%20to%20USB%20and%20Fuzzing.pdf) [slides]
 [[video](https://www.youtube.com/watch?v=KWOTXypBt4E)]
 
-[2015: "Don't Trust Your USB! How to Find Bugs in USB Device Drivers" by Sergej Schumilo et al.](https://www.blackhat.com/docs/eu-14/materials/eu-14-Schumilo-Dont-Trust-Your-USB-How-To-Find-Bugs-In-USB-Device-Drivers.pdf)
+[2015: "Don't Trust Your USB! How to Find Bugs in USB Device Drivers" by Sergej Schumilo et al.](https://www.blackhat.com/docs/eu-14/materials/eu-14-Schumilo-Dont-Trust-Your-USB-How-To-Find-Bugs-In-USB-Device-Drivers.pdf) [slides]
 [[paper](https://www.blackhat.com/docs/eu-14/materials/eu-14-Schumilo-Dont-Trust-Your-USB-How-To-Find-Bugs-In-USB-Device-Drivers-wp.pdf)]
 [[video](https://www.youtube.com/watch?v=OAbzN8k6Am4)]
 [[github](https://github.com/schumilo/vUSBf)]
@@ -1004,7 +1006,7 @@ Articles, talks, and research papers.
 [2019: "Writing userspace USB drivers for abandoned devices" by Ben Cox](https://blog.benjojo.co.uk/post/userspace-usb-drivers) [article]
 [[code](https://github.com/benjojo/userspace-vga2usb/)]
 
-[2019: "Making Pioneer DDJ-RB USB audio work on Linux"](https://www.youtube.com/watch?v=cUVuTBH51GY)
+[2019: "Making Pioneer DDJ-RB USB audio work on Linux"](https://www.youtube.com/watch?v=cUVuTBH51GY) [video]
 [[part 2](https://www.youtube.com/watch?v=nevJHGFx0yA)]
 
 [2017: "Reverse Engineering USB Protocol"](https://github.com/openrazer/openrazer/wiki/Reverse-Engineering-USB-Protocol) [article]
@@ -1042,12 +1044,12 @@ Articles, talks, and research papers.
 
 [2016: "USBiquitous: USB intrusion toolkit" by Benoit Camredon](https://www.sstic.org/media/SSTIC2016/SSTIC-actes/usb_toolkit/SSTIC2016-Article-usb_toolkit-camredon.pdf) [article]
 
+[2016: "IRON-HID: Create Your Own Bad USB Device" by Seunghun Han](https://archive.conference.hitb.org/hitbsecconf2016ams/sessions/iron-hid-create-your-own-bad-usb-device/) [paper]
+[[github](https://github.com/kkamagui/IRON-HID)]
+
 [2014: "USBProxy: Building an Open and Affordable USB Man in the Middle Device" by Dominic Spill](https://github.com/dominicgs/dominicgs.github.io/blob/master/presentations/2014/Spill_USBProxy_ShmooCon_Slides.pdf) [slides]
 [[article](https://github.com/dominicgs/dominicgs.github.io/blob/master/presentations/2014/Spill_USBProxy_ShmooCon_paper.pdf)]
 [[video](https://www.youtube.com/watch?v=5JnAeakUBnU)]
-
-[2016: "IRON-HID: Create Your Own Bad USB Device" by Seunghun Han](https://archive.conference.hitb.org/hitbsecconf2016ams/sessions/iron-hid-create-your-own-bad-usb-device/) [paper]
-[[github](https://github.com/kkamagui/IRON-HID)]
 
 [2014: "OpenVizsla OV3" by Felix Domke](https://debugmo.de/tags/openvizsla/) [articles]
 
@@ -1074,7 +1076,7 @@ Articles, talks, and research papers.
 [[note 6](https://infosec.exchange/@zhuowei@notnow.dev/114531934296778222)]
 [[note 7](https://infosec.exchange/@twiddles/114343055353217091)]
 
-[2025: "First analysis of Apple's USB Restricted Mode bypass (CVE-2025-24200)" by Loïc Buckwell](https://blog.quarkslab.com/first-analysis-of-apples-usb-restricted-mode-bypass-cve-2025-24200.html) [article]
+[2025: "First analysis of Apple's USB Restricted Mode bypass (CVE-2025-24200)" by Loic Buckwell](https://blog.quarkslab.com/first-analysis-of-apples-usb-restricted-mode-bypass-cve-2025-24200.html) [article]
 
 [2024: "iOS: a journey in the USB networking stack" by Florian Le Minoux](https://www.synacktiv.com/publications/ios-a-journey-in-the-usb-networking-stack) [article]
 
@@ -1099,7 +1101,7 @@ Articles, talks, and research papers.
 
 [GrapheneOS: USB-C port and pogo pins control](https://grapheneos.org/features#usb-c-port-and-pogo-pins-control) [docs]
 
-[2025: "USB: the most successful interface that also brings power" by Ondřej Caletka](https://media.ccc.de/v/why2025-255-usb-the-most-successful-interface-that-also-brings-power#t=34) [video]
+[2025: "USB: the most successful interface that also brings power" by Ondrej Caletka](https://media.ccc.de/v/why2025-255-usb-the-most-successful-interface-that-also-brings-power#t=34) [video]
 
 [2025: "Writing a basic Linux device driver when you know nothing about Linux drivers or USB" by crescentrose](https://crescentro.se/posts/writing-drivers/) [article]
 
@@ -1115,8 +1117,6 @@ Articles, talks, and research papers.
 [2024: "Adding a USB Port to the ThinkPad X1 Nano (the Hard Way)" by Joshua Stein](https://jcs.org/2024/05/29/x1usb) [article]
 
 [2024: "Clearing up misinformation about USB-C"](https://x.com/_MG_/status/1797461630437241318) [thread]
-
-[2024: "Making USB devices - end to end guide to your first gadget" by Uros Popovic](https://popovicu.com/posts/making-usb-devices/) [article]
 
 [2024: "Notes on why USB hubs suck" by Michael Ossmann](https://mastodon.social/@mossmann/112514231563904529) [tweet]
 
@@ -1144,11 +1144,11 @@ Articles, talks, and research papers.
 
 [2021: "USB-C Cable Colour Codes (alpha)"](https://sa.lj.am/usbccccc/) [article]
 
-[2021: "How does USB device discovery work?" by Ben Eater](https://www.youtube.com/watch?v=N0O5Uwc3C0o)
+[2021: "How does USB device discovery work?" by Ben Eater](https://www.youtube.com/watch?v=N0O5Uwc3C0o) [video]
 
-[2021: "How does a USB keyboard work?" by Ben Eater](https://www.youtube.com/watch?v=wdgULBpRoXk)
+[2021: "How does a USB keyboard work?" by Ben Eater](https://www.youtube.com/watch?v=wdgULBpRoXk) [video]
 
-[2021: "How does n-key rollover work?" by Ben Eater](https://www.youtube.com/watch?v=2lPzTU-3ONI)
+[2021: "How does n-key rollover work?" by Ben Eater](https://www.youtube.com/watch?v=2lPzTU-3ONI) [video]
 
 [2020: "USB Type-C is Coming: 3 Things You’ve Just Gotta Know"](https://web.archive.org/web/20201020204043/https://www.diodes.com/design/support/technical-articles/pericoms-articles/usb-type-c-is-coming-3-things-youve-just-gotta-know/) [article] [archive]
 
