@@ -218,6 +218,14 @@ Beagle:
 [USB 5000 v2 Ultimate](https://www.totalphase.com/products/beagle-usb5000-v2-ultimate/)
 [hardware]
 
+Ellisys:
+[Type-C Tracker](https://www.ellisys.com/products/ctr1/index.php),
+[USB Explorer 350](https://www.ellisys.com/products/usbex350/index.php),
+[USB Explorer 280](https://www.ellisys.com/products/usbex280/index.php),
+[USB Explorer 260](https://www.ellisys.com/products/usbex260/index.php),
+[USB Explorer 200](https://www.ellisys.com/products/usbex200/index.php)
+[hardware]
+
 [OpenVizsla](http://openvizsla.org/) [hardware]
 [[github](https://github.com/openvizsla/ov_ftdi)]
 [[github 2](https://github.com/usb-tools/pyopenvizsla)]
@@ -522,6 +530,8 @@ Teensy docs:
 
 [C2C caberQU: USB C cable tester](https://www.kickstarter.com/projects/electr/c2c-caberqu-usb-c-cable-tester) [hardware]
 
+[usbhub: USB device automation board with power switching, multiplexing, and USB-C control](https://gitlab.com/pjranki/usbhub) [hardware]
+
 
 ## Linux USB stack
 
@@ -761,6 +771,14 @@ Also see nu-map, umap2, and umap in the [Facedancer boards](#facedancer-boards) 
 
 [i-cant-believe-its-not-webusb: Hacking around lack of WebUSB support in Firefox](https://github.com/ArcaneNibble/i-cant-believe-its-not-webusb) [github]
 
+[usb-racer: USB disk drive emulator for testing TOCTOU issues](https://github.com/anvilsecure/usb-racer) [github]
+
+[cyme: Modern cross-platform lsusb replacement for listing USB buses and devices](https://github.com/tuna-f1sh/cyme) [github]
+
+[tensor-usbdl: Tool to send bootloader over USB to Google Pixel devices](https://github.com/JoshuaDoes/tensor-usbdl) [github]
+
+[qcom-usb-kernel-drivers: Qualcomm USB kernel drivers for Windows and Linux](https://github.com/qualcomm/qcom-usb-kernel-drivers) [github]
+
 
 ## Research
 
@@ -768,6 +786,37 @@ Articles, talks, and research papers.
 
 
 ### Attacking
+
+[2026: "When Pico's Attack - USB Exploit Engineering" by Alex Plaskett et al.](https://www.nccgroup.com/media/25bhrmn5/when-picos-attack-exploit-engineering-whitepaper.pdf) [article]
+[[slides](https://www.nccgroup.com/media/ei4merqj/when-picos-attack-hexacon-slides.pdf)]
+
+[2026: "The USB Camera That Freezes Windows: A usbvideo.sys Descriptor Parser DoS Microsoft Won't Fix" by Kamil Leoniak](https://delphoslabs.com/blog/usbvideo-sys/) [article]
+[[github](https://github.com/Delphos-Labs/disclosures/tree/main/windows-usbvideo-infinite-loop-dos)]
+
+[2026: "I discovered a vulnerability in the Linux Kernel USB Stack CVE-2026-43432" by Reverse Everything](https://www.youtube.com/watch?v=r2ZVCSFJXBA) [video]
+
+[2026: "Gone in 60 Frames - USB Video Exploitation" by Alex Plaskett and Robert Herrera](https://media.defcon.org/DEF%20CON%2034/DEF%20CON%2034%20presentations/DEF%20CON%2034%20-%20Alex%20Plaskett%2C%20Robert%20Herrera%20-%20Gone%20in%2060%20Frames%20-%20USB%20Video%20Exploitation%20-%20In60%20Whitepaper%20v1.pdf) [article]
+[[slides](https://media.defcon.org/DEF%20CON%2034/DEF%20CON%2034%20presentations/DEF%20CON%2034%20-%20Alex%20Plaskett%2C%20Robert%20Herrera%20-%20Gone%20in%2060%20Frames%20-%20USB%20Video%20Exploitation%20-%20In60%20Slides%20v1.pdf)]
+
+[2026: "Introducing usbliter8"](https://ps.tc/pages/blog-usbliter8.html) [article]
+[[github](https://github.com/prdgmshift/usbliter8)]
+
+[2026: "Plug me if you can: Exploiting USB Printer Drivers in Windows" by Dongjun Kim and Jongseong Kim](https://www.enki.co.kr/en/media-center/blog/plug-me-if-you-can-exploiting-usb-printer-drivers-in-windows) [article]
+[[github](https://github.com/enki-kr/CVE-2026-32223-USBPrint-Exploit)]
+
+[2026: "Exploiting USB on a Tesla IVI with Raspberry Pi Devices to bypass KASLR" by Alex Plaskett and Robert Herrera](https://www.nccgroup.com/media/xvinlas5/exploiting-usb-insomnihack-2026-1.pdf) [slides]
+
+[2026: "Exploiting MediaTek's Download Agent" by Roger Ortiz and shomy](https://web.archive.org/web/20261015130611/https://blog.r0rt1z2.com/posts/exploiting-mediatek-datwo/) [article] [archive]
+[[github](https://github.com/shomykohai/penumbra)]
+
+[2025: "RCMHax" by Elise Amber Katze](https://codeberg.org/katze/tx2hax/src/branch/main/writeups/rcmhax.md) [article]
+[[code](https://codeberg.org/katze/tx2hax)]
+[[video](https://media.ccc.de/v/39c3-making-the-magic-leap-past-nvidia-s-secure-bootchain-and-breaking-some-tesla-autopilots-along-the-way)]
+
+[2025: "Breaking the Vault: USB Bugs and Bug Bounty Failures" by Sergei Volokitin](https://www.youtube.com/watch?v=eG8_2M9dups) [video]
+
+[2025: "Vulnerability in Rockchip BootROM" by Vladimir Kononovich](https://2025.offzone.moscow/upload/exported/presentations/37okubfxrewwylbvrnt82huoffpltkk4.pdf) [slides]
+[[video](https://vkvideo.ru/video-172362100_456239267)]
 
 [2025: "Watch Your Phone: Novel USB-Based File Access Attacks Against Mobile Devices" by Florian Draschbacher and Lukas Maar](https://i.blackhat.com/Asia-25/Asia-25-Draschbacher-Watch-Your-Phone.pdf) [slides]
 
@@ -898,6 +947,11 @@ Articles, talks, and research papers.
 
 ### Fuzzing
 
+[2025: "A Modular Approach to Power Management Fuzzing" by Darrion Ramos et al.](https://lpc.events/event/19/contributions/2087/attachments/1897/4063/PM_USB_LPC_25.pdf) [slides]
+[[video](https://www.youtube.com/watch?v=TNMcqQsqgr4)]
+
+[2025: "DNAFuzz: Descriptor-Aware Fuzzing for USB Drivers" by Zhengshu Wang et al.](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/DNAFuzz_Camera_Ready.pdf) [paper]
+
 [2023: "Fuzz The Power: Dual-role State Guided Black-box Fuzzing for USB Power Delivery" by Kyungtae Kim and Sungwoo Kim](https://www.usenix.org/conference/usenixsecurity23/presentation/kim-kyungtae) [paper]
 [[github](https://github.com/purseclab/fuzzpd)]
 
@@ -1021,6 +1075,9 @@ Articles, talks, and research papers.
 
 ### Creating tools
 
+[2025: "Playing with USB OTG on an HP t240 to run One-KVM" by R23](https://www.r23.fun/2025/04/HP%20t240%20%E7%8E%A9%20USB%20OTG%20%E8%B7%91%20One-KVM/) [article]
+[[part 2](https://www.r23.fun/2025/05/HP%20t240%20%E4%B8%8E%20Armbian/)]
+
 [2024: "Hydradancer: Faster USB Emulation for Facedancer" by Thiebaud Fuchs](https://blog.quarkslab.com/hydradancer-faster-usb-emulation-for-facedancer.html) [article]
 [[slides](https://cfp.pass-the-salt.org/media/pts2024/submissions/EJKJS8/resources/PTS2024-TALK-15-Hydradancer_using_usb3_to_improve_f_JMdzeX2.pdf)]
 
@@ -1067,6 +1124,9 @@ Articles, talks, and research papers.
 
 ### Other research
 
+[2025: "Bringing USB to Life in QEMU - Kernel Build, Debug, and Redirection" by Shreyas Penkar](https://streypaws.github.io/posts/Android-Kernel-USBRedir-QEMU-Build-Debugging/) [article]
+[[github](https://github.com/Shreyas-Penkar/usbredir-scripts)]
+
 [2025: "Cellebrite zero-day exploit used to target phone of Serbian student activist"](https://securitylab.amnesty.org/latest/2025/02/cellebrite-zero-day-exploit-used-to-target-phone-of-serbian-student-activist/) [article]
 [[note 1](https://infosec.exchange/@zhuowei@notnow.dev/114130367739741197)]
 [[note 2](https://infosec.exchange/@zhuowei@notnow.dev/114323100736073083)]
@@ -1101,6 +1161,11 @@ Articles, talks, and research papers.
 
 [GrapheneOS: USB-C port and pogo pins control](https://grapheneos.org/features#usb-c-port-and-pogo-pins-control) [docs]
 
+[2026: "Modernizing Android USB: Userspace AOA, Multi-UDC, Type-C, and Framework APIs" by Neill Kapron and George Chan](https://lpc.events/event/20/contributions/2559/attachments/2030/4568/LPC26%20-%20Modernizing%20Android%20USB.pdf) [slides]
+[[video](https://www.youtube.com/watch?v=OMzXUs3PceQ)]
+
+[2025: "J-Link Compact USB-C Issues" by Alvaro Prieto](https://alvarop.com/2025/09/j-link-compact-usb-c-issues/) [article]
+
 [2025: "USB: the most successful interface that also brings power" by Ondrej Caletka](https://media.ccc.de/v/why2025-255-usb-the-most-successful-interface-that-also-brings-power#t=34) [video]
 
 [2025: "Writing a basic Linux device driver when you know nothing about Linux drivers or USB" by crescentrose](https://crescentro.se/posts/writing-drivers/) [article]
@@ -1129,6 +1194,8 @@ Articles, talks, and research papers.
 
 [2023: "See the minimum needed for a USB device to list in Device Manager"](https://www.youtube.com/watch?v=VG5bWzEPfsg) [video]
 
+[2022: "USB Cheat Sheet" by Fabien Sanglard](https://fabiensanglard.net/usbcheat/index.html) [article]
+
 [2022: "Tech Stuff - USB and Firewire"](http://www.zytrax.com/tech/pc/serial.html) [article]
 
 [2022: "All About USB-C: Introduction For Hackers" by Arya Voronova](https://hackaday.com/2022/12/06/usb-c-introduction-for-hackers/) [article]
@@ -1136,6 +1203,8 @@ Articles, talks, and research papers.
 [2022: "Illegal USB Type-C" by Sergey Korablin](https://brs.im/weird-usb-type-c/) [article]
 
 [2022: "A Chip To Bridge The USB 2 – USB 3 Divide" by Arya Voronova](https://hackaday.com/2022/03/07/a-chip-to-address-the-fundamental-usb-3-0-deficiency/) [article]
+
+[2021: "The confusing world of USB" by Fabien Sanglard](https://fabiensanglard.net/nousb/index.html) [article]
 
 [2021: "USB-C hubs and my slow descent into madness" by Dennis Schubert](https://overengineer.dev/blog/2021/04/25/usb-c-hub-madness/) [article]
 [[comments](https://news.ycombinator.com/item?id=44600512)]
